@@ -1,0 +1,665 @@
+
+POP’s
+2
+Consultas…………………………………………………….05
+Consulta de psicoterapia……………………….………...05
+Consulta de psiquiatria…………………………………….08
+Pós-consulta de psicoterapia………….………………..10
+Pós-consulta de psiquiatria…………………………...…13
+
+Atendimento.........................................................16
+Atendimento de novos pacientes……………………..16
+Check-list da clínica………………………………………….20
+Atendimento de ligações………………………………….23
+Recepção pré-consulta…………………………………….26
+Recepção pós-consulta…………………………………….29
+Política de cancelamento……………………………….…32
+Recebimento de reclamações………………………34
+
+Administrativo-Financeiro………………….……….36
+a.	Pagamento de consultas da clínica………………….36
+b.	Reposição de insumos da clínicas…………….………39
+
+Exames e Reunião………………………………….……42
+Marcação de exames de polissonografia……….…42
+Reunião com representantes comerciais.………..45
+
+3
+3
+VOLTAR AO MENU
+Consultas 
+
+4
+4
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Consulta de Psicoterapia
+Responsável 
+Doutoras
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Whatsapp
+Ações
+1.0  Verificar a agenda
+2.0 Ler o prontuário do paciente no Doctoralia
+O paciente compareceu na sessão?
+SIM
+3.0 Atender o paciente
+Informar aos pacientes sobre as atividades semanais.
+Em caso de dúvida, o paciente pode mandar mensagem no whatsapp privado;
+Caso seja primeira consulta, informar sobre o funcionamento da clínica, horários e a duração da sessão (50 minutos ou 1 hora).
+4.0 Pedir para o paciente assinar a ficha
+5.0 Preencher a ficha e prontuário do paciente
+O paciente compareceu na sessão?
+NÃO
+
+5
+5
+VOLTAR AO MENU
+6.0 Verificar com a Secretária se o paciente entrou em contato
+Caso o paciente não tenha respondido ao contato da secretária, enviar uma mensagem perguntando o motivo da ausência na sessão agendada.
+7.0 Avisar a secretária
+Informar se a sessão será remarcada ou cobrada a política de falta.
+FIM DO PROCESSO
+
+
+6
+6
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Consulta de Psiquiatria
+Responsável 
+Doutoras
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Whatsapp
+Ações
+1.0  Verificar a agenda
+2.0 Ler o prontuário do paciente no Doctoralia
+O paciente compareceu na consulta?
+SIM
+3.0 Atender o paciente
+4.0 Preencher a ficha e prontuário do paciente
+O paciente compareceu na consulta?
+NÃO
+5.0 Entrar em contato com o paciente
+Antes de cobrar, enviar ao paciente o documento assinado com as políticas da clínica.
+FIM DO PROCESSO
+
+7
+7
+VOLTAR AO MENU
+Atendimento 
+
+8
+8
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Contato pós-consulta de psicoterapia
+Responsável 
+Secretária
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Planilha de seguimento;
+Whatsapp Business;
+Ações
+1.0  Localizar o WhatsApp do paciente
+O paciente teve a primeira consulta?
+SIM
+2.0 Procurar a mensagem padrão de NPS da clínica
+3.0 Enviar o link de formulário de avaliação da consulta
+O paciente teve a primeira consulta?
+NÃO
+4.0 Enviar mensagem com instruções para marcação da próxima consulta
+Caso o paciente não tenha agendado e ao enviar incluir o link de marcação de consulta do Doctoralia.
+5.0 Verificar o Doctoralia
+7 dias após a consulta.
+O paciente marcou a próxima consulta?
+NÃO
+
+
+9
+9
+VOLTAR AO MENU
+6.0 Enviar mensagem padrão oferecendo os pacotes da clínica
+O paciente marcou a próxima consulta?
+SIM
+FIM DO PROCESSO
+
+
+10
+10
+CONTATO PÓS-CONSULTA DE PSIQUIATRIA
+
+	A nova etapa de envio da mensagem de agradecimento e reforço da continuidade do tratamento fortalece o vínculo com o paciente e melhora a adesão ao acompanhamento. Os ganhos incluem maior taxa de retorno, engajamento no tratamento e confiança na clínica.
+Os riscos são a possível falta de resposta ou percepção de impessoalidade. Para mitigar, a mensagem deve ser humanizada e objetiva, reforçando o cuidado sem parecer automatizada. Além disso, o acompanhamento pode ser aprimorado com a possibilidade de interação direta, caso o paciente tenha dúvidas ou preocupações.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+11
+11
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Contato pós-consulta de psiquiatria
+Responsável 
+Secretária
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Planilha de seguimento;
+Whatsapp Business;
+Ações
+1.0  Localizar o WhatsApp do paciente
+O paciente teve a primeira consulta?
+SIM
+2.0 Procurar a mensagem padrão de NPS da clínica
+3.0 Enviar o link de formulário de avaliação da consulta
+O paciente teve a primeira consulta?
+NÃO
+4.0 Enviar mensagem padrão de 15 dias
+O paciente respondeu que está se sentindo bem?
+SIM
+4.1 Enviar mensagem de agradecimento pela resposta e lembrete para continuar o tratamento
+O paciente respondeu que está se sentindo bem?
+NÃO
+
+
+12
+12
+VOLTAR AO MENU
+4.2  Pedir para entrar em contato com o Doutor
+5.0 Verificar o Doctoralia
+45 dias após a consulta.
+6.0 Enviar mensagem padrão de 60 dias
+Caso o paciente não tenha agendado consulta de seguimento e ao enviar incluir o link de marcação de consulta do Doctoralia.
+FIM DO PROCESSO
+
+
+13
+13
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Atendimento de novos pacientes
+Responsável 
+Secretária
+Objetivo
+Garantir um atendimento eficiente, proporcionando uma experiência de qualidade para os potenciais pacientes.
+Recursos Necessários
+Computador e celular
+WhatsApp Business
+Planilha de agendamento
+Sistema financeiro
+Ações
+1.0 Receber o contato do lead por mensagem.
+2.0 Oferecer ligação.
+Perguntar se o paciente tem 3 minutos para realizar uma ligação com a funcionária, a fim de explicar melhor sobre a consulta do doutor Marco Túlio pelo telefone.
+O paciente pode atender?
+SIM
+2.1 Ligar para o paciente.
+O paciente pode atender?
+NÃO
+2.1 Enviar a mensagem padrão de apresentação para o paciente
+
+
+
+14
+14
+VOLTAR AO MENU
+3.0 Cumprimentar o paciente.
+Exemplo: “Oi, Sr. [nome do paciente], aqui é a [nome da secretária], secretária do Dr. Marco Túlio, obrigado por reservar alguns minutos para eu poder explicar melhor sobre a consulta.”
+Manter a educação e cordialidade com o paciente durante todo o processo.
+4.0 Perguntar qual o motivo da procura.
+5.0 Informar o paciente sobre o doutor e seu estilo de consulta.
+Exemplo: “O Dr. Marco Túlio é um médico experiente com mais de 8 anos de atuação, tem especializações nas universidades mais renomadas do Brasil (USP e UNIFESP), foi professor universitário de 2023 até 2024 e atualmente dedica o seu tempo de trabalho exclusivamente para o consultório. O Dr. Marco Túlio prioriza um atendimento humanizado, tem um olhar mais abrangente, tenta entender toda a sua história de vida, para pensar nas possíveis causas do que pode estar acontecendo e planejar um plano terapêutico adequado com a sua história. A primeira consulta tem 2 horas de duração e a consulta de seguimento 1 hora. O Dr. Marco Túlio disponibiliza o seu número pessoal para esclarecimentos de dúvidas e acompanhamento da evolução até a próxima consulta”
+6.0 Perguntar se a consulta seria para ele ou terceiros.
+7.0 Perguntar se o paciente tem preferência por consulta on-line ou presencial.
+8.0 Verificar dias e horários disponíveis no Doctoralia.
+9.0 Oferecer duas opções de agendamento.
+Informar duas opções de horário, uma pela manhã e outra pela tarde, na data mais próxima disponível.
+
+15
+15
+VOLTAR AO MENU
+10.0 Coletar as informações necessárias para agendamento.
+Nome completo, data de nascimento, e-mail e telefone de algum familiar.
+11.0 Marcar a consulta no sistema.
+Atualizar planilha de controle e Doctoralia.
+12.0 Cobrar pagamento.
+Informar o valor das consultas.
+13.0 Perguntar o método de pagamento.
+Em caso de primeira consulta, o valor deve ser pago de forma antecipada, até 24 horas antes da consulta.
+Caso o cliente opte pelo pagamento no cartão, cobra-se a taxa da máquina do cartão.
+14.0 Solicitar comprovante de pagamento.
+15.0 Encerrar atendimento.
+
+FIM DO PROCESSO.
+
+16
+16
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Atendimento de ligações
+Responsável 
+Secretária
+Objetivo
+Atender as ligações feitas para a clínica e esclarecer dúvidas de potenciais pacientes.
+Recursos Necessários
+Celular
+Ações
+1.0  Atender o telefone
+Caso seja necessário, existe um SAC com respostas padrões e dúvidas mais recorrentes.
+A ligação é para marcar consulta?
+SIM
+1.1 Verificar as datas e horários disponíveis no Doctoralia
+1.2 Agendar a consulta no Doctoralia
+A ligação é para marcar consulta?
+NÃO
+1.3 Responder as dúvidas do paciente
+O paciente quer saber se aceitam convênio?
+NÃO
+2.0 Responder outras dúvidas.
+O paciente quer saber se aceitam convênio?
+SIM
+
+17
+17
+VOLTAR AO MENU
+2.1 Esclarecer que não aceitam convênio.
+Esclarecer que somente emitem nota fiscal.
+O convênio pode realizar o reembolso utilizando a nota fiscal.
+3.0 Falar sobre o serviço da clínica
+4.0 Responder as dúvidas, se houver
+5.0 Finalizar a ligação
+FIM DO PROCESSO
+
+18
+18
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Recepção (pré-consulta)
+Responsável 
+Secretária
+Objetivo
+Garantir acolhimento, organização e orientações claras para o paciente e promover um ambiente tranquilo e profissional.
+Recursos Necessários
+Computador
+Equipamento para aferição de pressão
+Itens de hospitalidade
+Ações
+1.0 Receber o paciente na clínica.
+2.0 Cumprimentar o paciente.
+3.0 Oferecer algo para beber e comer.
+Água, café, bolo ou doce.
+O paciente deseja algo?
+SIM
+3.1 Servir o paciente.
+O paciente deseja algo?
+NÃO
+4.0 Preencher a ficha completa do paciente no Doctoralia.
+Nome e sobrenome, gênero, número e endereço.
+Somente se for a primeira consulta.
+5.0 Conferir se o pagamento já foi efetuado.
+O pagamento foi efetuado?
+SIM
+
+
+19
+19
+VOLTAR AO MENU
+O pagamento foi efetuado?
+NÃO
+5.1 Coletar pagamento.
+Somente se tiver sido acordado o pagamento de forma presencial.
+Essa tarefa pode ser realizada depois da consulta, a depender da disponibilidade de tempo.
+6.0 Pedir para aferir a pressão do paciente.
+Exemplo: “Com licença, posso aferir sua pressão?”
+7.0 Aferir a pressão do paciente.
+8.0 Anotar informações em um papel.
+9.0 Entregar o papel ao doutor.
+É a primeira consulta?
+NÃO
+É a primeira consulta?
+SIM
+Pedir para o paciente assinar o documento de políticas da clínica
+10.0 Informar que o paciente deve aguardar até ser chamado pelo doutor.
+11.0 Emitir a nota fiscal do pagamento.
+Caso o pagamento tenha sido presencial
+11.1 Enviar a  nota fiscal.
+FIM DO PROCESSO.
+
+20
+20
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Recepção (pós-consulta)
+Responsável 
+Secretária
+Objetivo
+Garantir o fechamento do atendimento e fornecer as informações necessárias para a continuidade do tratamento.
+Recursos Necessários
+Computador e celular;
+Acesso ao Doctoralia.
+Ações
+1.0 Receber o paciente de volta na recepção.
+2.0 Entregar a nota fiscal.
+Somente se o pagamento tiver ocorrido de forma presencial.
+Caso o paciente prefira uma via impressa.
+O paciente é de psicoterapia ou psiquiatria?
+PSICOTERAPIA
+3.0 Abrir o Doctoralia
+Verificar se o paciente possui pacote
+O paciente é de psicoterapia ou psiquiatria?
+PSIQUIATRIA
+3.1 Abrir o Doctoralia
+Agendar a próxima consulta
+4.0 Oferecer os pacotes de psicoterapia
+Caso o paciente não tenha.
+
+21
+21
+VOLTAR AO MENU
+O paciente aceitou o serviço?
+SIM
+4.1 Registrar a compra do serviço no Doctoralia
+Avisar ao paciente como o pacote funciona
+Número de sessões, assinatura na ficha de controle após toda consulta e Doutora responsável.
+O paciente aceitou o serviço?
+NÃO
+5.0 Encaminhar o paciente para a saída da clínica
+6.0 Imprimir a ficha de controle
+7.0 Entregar a ficha para o responsável pelo paciente
+FIM DO PROCESSO.
+
+22
+22
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Política de cancelamento
+Responsável 
+Secretária
+Objetivo
+Garantir a eficiência da agenda, evitando perdas de tempo e recursos.
+Recursos Necessários
+Computador;
+Acesso ao Doctoralia.
+Ações
+1.0  Visualizar a mensagem com o pedido de cancelamento do paciente
+O pedido de cancelamento foi realizado com no mínimo 24 horas de antecedência?
+NÃO
+1.1 Avisar que não haverá reembolso.
+O pedido de cancelamento foi realizado com no mínimo 24 horas de antecedência?
+SIM
+1.1 Iniciar o processo de reembolso
+1.2 Solicitar dados bancários do paciente
+1.3 Avisar que a clínica tem 72 horas para efetuar o reembolso
+2.0 Encaminhar os dados bancários do paciente para o doutor responsável
+2.1 Aguardar o doutor efetuar o pagamento e encaminhar o comprovante
+3.0 Encaminhar o comprovante ao paciente
+4.0 Cancelar a consulta no Doctoralia
+FIM DO PROCESSO.
+
+23
+23
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Recebimento de reclamações
+Responsável 
+Secretárias e Doutor Marco
+Objetivo
+Identificar pontos de melhoria no atendimento, aprimorar a qualidade dos serviços e aumentar a satisfação do paciente.
+Recursos Necessários
+Computador;
+Ações
+1.0 Receber reclamação do paciente.
+2.0 Registrar a reclamação na planilha.
+3.0 Enviar a reclamação para o WhatsApp do gestor da clínica.
+4.0 Avisar pessoalmente o gestor da clínica sobre a reclamação.
+A reclamação foi online?
+NÃO
+4.1 Enviar mensagem no WhatsApp para o paciente 
+A reclamação foi online?
+SIM
+4.2 Responder a reclamação
+FIM DO PROCESSO
+
+
+24
+24
+VOLTAR AO MENU
+Administrativo - Financeiro 
+
+25
+25
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Check-list da clínica
+Responsável 
+Secretária
+Objetivo
+Garantir que a clínica esteja em perfeitas condições de uso e funcionamento, verificando todos os aspectos necessários antes do início das atividades diárias.
+Recursos Necessários
+Materiais de limpeza
+Materiais de atendimento ao cliente
+Computador e celular
+Ações
+1.0 Chegar na clínica às 7 da manhã.
+2.0 Limpar a clínica.
+Tirar o pó dos móveis.
+Passar pano nos móveis.
+Lavar o banheiro.
+Lavar a louça.
+A limpeza deve ser realizada diariamente no período da manhã. Especialmente às quartas-feiras, ambas as salas devem ser limpas e organizadas antes do início do expediente, às 8h. Nos demais dias, a ordem de limpeza das salas pode variar conforme os horários das consultas.
+3.0 Verificar os equipamentos e itens essenciais.
+Identificar dispositivos fora da tomada ou descarregados.
+
+
+26
+26
+VOLTAR AO MENU
+3.1 Ligar equipamentos necessários.
+Ligar computadores e ar-condicionado.
+4.0 Reabastecer itens da clínica conforme necessidade
+Cápsulas de café, chocolates, chicletes, balas, guardanapos, adoçantes, sachês de açúcar, álcool em gel.
+Copos e pratos limpos.
+5.0 Sentar-se à mesa de recepção.
+6.0 Responder mensagens.
+Responder novos clientes que entraram em contato.
+Seguir processo: “atendimento de novos pacientes”
+Mandar mensagem padrão de pós consulta.
+Utilizar mensagem padrão de 15 dias ou 60 dias.
+Mandar mensagem padrão de confirmação de consultas que acontecerão daqui 5 dias, 3 dias ou 1 dia.
+Utilizar mensagem padrão de “confirmação 5 dias”, “confirmação 1 dia antes”, ou “confirmação de consulta 3 dias”.
+7.0 Conciliar os pagamentos no sistema da Conta Azul.
+Conferir os lançamentos do dia anterior.
+8.0 Iniciar processo de recepção dos clientes e tarefas específicas ao longo do dia.
+FIM DO PROCESSO.
+
+27
+27
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Pagamento de consultas da clínica - Doctoralia
+Responsável 
+Secretárias
+Objetivo
+Organizar o fluxo de pagamentos de consultas e controle financeiro garantindo a atualização correta dos registros nos sistemas utilizados.
+Recursos Necessários
+Computador
+Acesso ao Doctoralia
+Acesso a Conta Azul
+Ações
+1.0 Classificar as consultas realizadas
+Verificar no sistema quais consultas foram realizadas ou não.
+Atualizar o status para uma das opções: realizada ou não realizada.
+Identificar se a paciente é nova ou de seguimento.
+2.0 Fechar o caixa no Doctoralia
+Clicar no nome do paciente para visualizar os detalhes da consulta.
+Verificar a forma de pagamento e o valor correto.
+Preencher no espaço de notas a data do pagamento.
+2.1 Enviar o comprovante de pagamento no grupo de “Entradas da clínica” no WhatsApp.
+FIM DO PROCESSO
+
+
+28
+28
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Pagamento de consultas da clínica - Conta Azul
+Responsável 
+Secretárias
+Objetivo
+Organizar o fluxo de pagamentos de consultas e controle financeiro garantindo a atualização correta dos registros nos sistemas utilizados.
+Recursos Necessários
+Computador
+Acesso ao Doctoralia
+Acesso a Conta Azul
+Ações
+1.0  Registrar as vendas na Conta Azul
+Informar o nome do paciente e valor da consulta.
+Toda venda realizada deve ser registrada imediatamente no sistema.
+Lançar a venda antes de emitir a nota.
+2.0 Conferir os pagamentos de consultas da semana
+O paciente já pagou a consulta?
+NÃO
+2.0 Realizar a cobrança pelo WhatsApp
+Caso o paciente não pague até 6 horas antes da consulta, a consulta deve ser cancelada.
+O paciente já pagou a consulta?
+SIM
+FIM DO PROCESSO
+
+29
+29
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Reposição de insumos da clínica
+Responsável 
+Secretárias e Doutor Marco
+Objetivo
+Garantir que os insumos necessários para o funcionamento da clínica sejam repostos de forma organizada e atualizadas no controle financeiro.
+Recursos Necessários
+Celular
+Estoque
+Ações
+1.0 Verificar o estoque.
+2.0 Atualizar a planilha com a quantidade de itens retirados.
+Algum item está em quantidade reduzida?
+SIM
+3.0 Consultar a lista de fornecedores
+4.0 Realizar os pedidos
+5.0 Encaminhar ao gestor da clínica os valores a serem pagos
+Enviar no grupo “Despesas da clínica” no WhatsApp.
+6.0 Efetuar o pagamento
+Encaminhar o comprovante de pagamento para a Secretária 
+Enviar no grupo “Despesas da clínica” no WhatsApp.
+7.0 Confirmar a entrega dos itens comprados
+8.0 Registrar os valores de cada item no sistema
+
+
+
+30
+30
+VOLTAR AO MENU
+9.0 Separar os materiais que serão utilizados de imediato
+10.0 Armazenar os itens restantes no armário da clínica
+FIM DO PROCESSO.
+
+31
+31
+VOLTAR AO MENU
+Exames e Reunião 
+
+32
+32
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Marcação de exames
+Responsável 
+Doutores e Secretárias
+Objetivo
+Organizar o processo de marcação, entrega, uso e devolução do aparelho de polissonografia, garantindo o correto uso pelo paciente e a preservação do equipamento.
+Recursos Necessários
+Equipamento de Polissonografia
+Esparadrapos
+Termo de Compromisso
+Ações
+1.0 Oferecer o exame ao paciente.
+Em caso de dúvida, consultar o briefing sobre o exame oferecido.
+Os Doutores são responsáveis por oferecer o exame de polissonografia ao paciente.
+O paciente tem interesse no exame?
+SIM
+1.2 Avisar que a Secretária irá marcar o exame
+2.0 Agendar o exame
+Verificar a disponibilidade de dia e horário para retorno do paciente.
+3.0 Explicar como o exame funciona
+4.0 Orientar o paciente a baixar o aplicativo Biologix.
+Disponível na App Store e Google Play.
+O paciente deve criar uma conta e conectar o aparelho ao aplicativo no dia do exame.
+
+
+33
+33
+VOLTAR AO MENU
+5.0 Solicitar a assinatura do termo de compromisso.
+Informar o paciente sobre as penalidades do termo de compromisso.
+Multa em caso de atraso na devolução e custo total do aparelho em caso de danos ou perda.
+Uma cópia do termo de compromisso é guardado na gaveta da clínica e a outra é entregue ao paciente.
+6.0 Entregar o aparelho.
+Explicar o funcionamento do aparelho.
+7.0 Receber o aparelho de volta.
+Verificar as condições do equipamento.
+Registrar a devolução.
+8.0 Imprimir o resultado do exame.
+Entregar o resultado do exame para o paciente no dia da devolução do aparelho.
+O Doutor Marco aborda o resultado caso o paciente envie uma mensagem perguntando ou na consulta de seguimento.
+9.0 Higienizar o aparelho.
+Limpar o aparelho.
+Verificar a quantidade de esparadrapo disponível.
+Guardar o aparelho.
+FIM DO PROCESSO
+
+34
+34
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Agendar reunião com os representantes comerciais
+Responsável 
+Secretária
+Objetivo
+Organizar o fluxo de interação com representantes de indústrias farmacêuticas para garantir que apresentações de produtos sejam realizadas de forma eficiente e otimizando o tempo da equipe.
+Recursos Necessários
+Computador
+Acesso ao doctoralia
+Ações
+1.0 Recepcionar os representantes farmacêuticos na clínica.
+Registrar o nome do representante, a empresa e o telefone.
+2.0 Receber os medicamentos.
+O representante quer marcar uma reunião?
+SIM
+3.0 Marcar reunião no Doctoralia
+Verificar o horário mais próximo disponível.
+O representante quer marcar uma reunião?
+NÃO
+4.0 Guardar as amostras grátis no armário do consultório.
+FIM DO PROCESSO
+

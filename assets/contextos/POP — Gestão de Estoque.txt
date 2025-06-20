@@ -1,0 +1,27 @@
+1.0 Abrir a Planilha de Controle de Estoque.
+2.0 Abrir a Planilha de Retiradas de Estoque.
+3.0 Dar baixa nas retiradas registrada pela equipe
+Planilha de retirada de estoque.
+4.0 Verificar na Planilha de Controle de Estoque se há algum item crítico de estoque.
+Usar indicadores da planilha (cinza: estoque crítico; vermelho: estoque zerado)
+Algum item precisa ser comprado?
+SIM
+4.1 Iniciar o processo de compras.
+POP
+
+Algum item precisa ser comprado?
+NÃO
+FIM DO PROCESSO.
+1
+Procedimento Operacional Padrão
+Tarefa
+Gestão de Estoque
+Responsável 
+Marcos
+Objetivo
+Controlar o uso de insumos da clínica, garantindo que não faltem materiais essenciais e que todas as reposições sejam feitas de forma organizada.
+Recursos Necessários
+Computador
+Planilha de Gestão de Estoque
+Planilha de Controle de Estoque
+Ações

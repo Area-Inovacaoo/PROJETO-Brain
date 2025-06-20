@@ -1,0 +1,49 @@
+1.0  Receber pedido de desconto de paciente de primeira consulta de psiquiatria
+2.0 Responder o paciente
+Sugestão de mensagem:
+Olá, [NOME]. Entendo sua situação.  Aqui na clínica temos uma política bem estabelecida para garantir a equidade no tratamento de todos os nossos pacientes e manter a sustentabilidade da clínica. Por isso, não conseguimos trabalhar com descontos.  
+Mas posso tentar alguma forma de facilitar o seu pagamento. Pode ser?
+
+O paciente respondeu "SIM"?
+SIM
+
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Resposta à Pedido de Desconto em Primeira Consulta de Psiquiatria
+Responsável 
+Islayne
+Objetivo
+Responder de forma empática e padronizada aos pacientes que solicitam desconto, buscando oferecer condições alternativas de pagamento que facilitem o agendamento.
+Recursos Necessários
+Computador
+WhatsApp
+Ações
+
+2
+2.1 Oferece opções de pagamento facilitado
+Sugestão de mensagem:
+Conversei com a gerência e consegui duas condições para você, caso agende hoje:  
+
+👉 Opção 1: Pagar apenas 50% antecipado e parcelar o restante em até 2 vezes no dia da consulta, se for presencial, ou pagar o restante no dia anterior da consulta se for online.
+
+👉 Opção 2: Pagar apenas 50% antecipado e parcelar o restante em mais vezes com o acréscimo das taxas da maquininha.  
+
+Qual opção fica melhor para você?
+
+2.2 Aguardar a resposta e seguir com o processo de agendamento, se o paciente aceitar.
+
+O paciente respondeu "SIM"?
+NÃO
+2.1 Tentar entender o motivo da recusa
+Se o paciente apresentar alguma objeção, caso a gente consulta resolver, contornar.
+Se o paciente apresentar alguma dúvida, responder.
+
+2.2 Encerrar o atendimento aaso a objeção seja intransponível ou o lead apresentar uma recusa definitiva 
+Sugestão de resposta:
+Entendo, [NOME]. Sei que o valor da consulta pode ser um desafio e, por isso, busquei oferecer algumas facilidades.  
+Caso mude de ideia ou precise de algum outro suporte, estou à disposição. Ficarei feliz em ajudá-lo quando for o momento certo para você!
+
+FIM DO PROCESSO.
+

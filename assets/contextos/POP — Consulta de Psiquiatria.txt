@@ -1,0 +1,33 @@
+1.0  Verificar a agenda
+2.0 Ler o prontuário do paciente no Doctoralia
+O paciente compareceu na consulta?
+SIM
+3.0 Atender o paciente
+4.0 Preencher a ficha e prontuário do paciente
+O paciente compareceu na consulta?
+NÃO
+5.0 Pedir para recepção seguir POP de não comparecimento na consulta.
+
+FIM DO PROCESSO
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Consulta de Psiquiatria
+Responsável 
+Médicos psiquiatras
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+WhatsApp
+Ações
+
+2
+6.0 Verificar com a Secretária se o paciente entrou em contato
+Caso o paciente não tenha respondido ao contato da secretária, enviar uma mensagem perguntando o motivo da ausência na sessão agendada.
+7.0 Avisar a secretária
+Informar se a sessão será remarcada ou cobrada a política de falta e a análise do caso.
+.
+FIM DO PROCESSO
+
+

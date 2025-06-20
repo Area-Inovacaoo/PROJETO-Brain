@@ -1,0 +1,24 @@
+Procedimento Operacional Padrão
+Tarefa
+Envio de Mensagem de 30 e 60 Dias sem Retorno
+Responsável 
+Yan
+Objetivo
+Retomar contato com pacientes que realizaram consulta, mas estão há mais de 60 dias sem retorno nem novo agendamento, com o intuito de demonstrar cuidado, entender o motivo da ausência e reabrir o canal para continuidade do tratamento.
+Recursos Necessários
+Acesso ao Doctoralia e VSaúde.
+WhatsApp Business.
+Ações
+1.0 Identificar os pacientes que passaram com Psiquiatra ou Psicólogo há mais de 30 e 60 dias.
+2.0 Verificar se o paciente possui alguma consulta agendada.
+O paciente possui futura consulta agendada?
+NÃO
+2.1 Localizar o contato do paciente.
+2.2 Enviar mensagem padrão de 30 e 60 dias via WhatsApp.
+Utilizar o comando /mensagem30dias e /mensagem60dias  no WhatsApp.
+O paciente possui futura consulta agendada?
+SIM
+
+FIM DO PROCESSO.
+
+1

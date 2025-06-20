@@ -1,0 +1,55 @@
+1.0 Receber o paciente de volta na recepção.
+2.0 Abrir a planilha de controle de pacote de psicoterapia.
+Verificar se o paciente possui pacote.
+O paciente tem pacote de psicoterapia ativo?
+NÃO
+3.0 Oferecer os pacotes de psicoterapia.
+Script de venda de psicoterapia
+O paciente aceitou a oferta do pacote?
+SIM
+
+3.1 Receber o pacote de psicoterapia.
+Avisar ao paciente como o pacote funciona.
+Número de sessões, processo de renovação e psicóloga responsável.
+3.2 Cadastrar o pacote na planilha de controle de planos de psicoterapia
+3.3 Marcar as consultas do pacote no Doctoralia e/ou no VSaúde.
+
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Recepção Pós-Consulta de Psicoterapia
+Responsável 
+Yan
+Objetivo
+Garantir o fechamento do atendimento e fornecer as informações necessárias para a continuidade do tratamento.
+Recursos Necessários
+Computador
+Planilha de controle de pacotes de psicoterapia
+Acesso ao Doctoralia e ao VSaúde
+Ações
+
+
+O paciente aceitou a oferta do pacote?
+NÃO
+3.3 Receber a consulta avulsa.
+O paciente tem pacote de psicoterapia ativo?
+SIM
+4.0 Verificar na planilha de controle quantas sessões faltam.
+Informar ao paciente quantas sessões faltam.
+Qual é a sessão do pacote?
+É A ÚLTIMA SESSÃO
+4.1 Informar para o paciente que é a última do paciente e perguntar se ele quer renovar agora ou na próxima sessão.
+4.2 Receber o pagamento caso opte pagar antecipado.
+Qual é a sessão do pacote?
+É A PRIMEIRA SESSÃO
+4.3 Verificar se o paciente já renovou na última sessão.
+Planilha de controle.
+O pacote já foi renovado?
+NÃO
+4.4 Receber o pagamento da renovação do pacote
+
+O pacote já foi renovado?
+SIM
+FIM DO PROCESSO.
+2

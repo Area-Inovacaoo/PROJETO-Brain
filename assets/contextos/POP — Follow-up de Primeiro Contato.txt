@@ -1,0 +1,33 @@
+1.0 Identificar os leads do dia anterior que não deram seguimento na conversa.
+2.0 Enviar primeira mensagem de follow-up — 1 dia após o contato inicial.
+Oi, [NOME]! Espero que esteja tendo um bom dia. Não obtive sua resposta ontem. Isso se deve a estar com muitos compromissos ou a um desinteresse no momento? Agradeceria se pudesse me dar um retorno, pois isso nos ajudará a entender melhor como seguir adiante. Queremos garantir que estamos à disposição para te ajudar da melhor forma possível.
+O paciente respondeu?
+NÃO
+3.0 Enviar segunda mensagem de follow-up — 3 dias após o contato inicial.
+Oi, [NOME]. Não conseguimos nos falar nos últimos dias e entendo que sua rotina pode estar corrida. Quando for o melhor momento para conversar, estarei por aqui para te ajudar.
+
+
+
+
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Follow-up de Primeiro Contato
+Responsável 
+Islayne
+Objetivo
+Realizar um acompanhamento ativo com leads que iniciaram contato com a clínica, mas não deram continuidade na conversa, utilizando uma cadência de abordagem humanizada, respeitosa e orientada à reativação.
+Recursos Necessários
+Celular
+WhatsApp Business
+Ações
+
+2
+O paciente respondeu?
+SIM
+
+3.0 Prosseguir com atendimento
+
+
+FIM DO PROCESSO

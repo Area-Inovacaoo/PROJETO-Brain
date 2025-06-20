@@ -1,0 +1,82 @@
+1.0 Iniciar o processo de faturamento quando um comprovante de pagamento é enviado no grupo "Entradas de pagamento" e foi checado na conta a entrada.
+1.1 Acessar o Conta Azul
+1.2 Navegar até: Serviços → Venda de Serviços → Nova Venda de Serviços
+2.0 Preencher os dados da venda
+O paciente ja é cadastrado?
+SIM
+2.1 Selecionar o paciente existente
+
+O paciente ja é cadastrado?
+NÃO
+2.2 Cadastrar o novo paciente (nome, CPF, e-mail, celular, endereço com CEP etc.)
+
+3.0 Inserir a data da venda
+1
+Procedimento Operacional Padrão
+Tarefa
+Faturamento de Pagamento
+Responsável 
+Yan
+Objetivo
+Garantir o correto registro das vendas de serviços e emissão das notas fiscais no sistema Conta Azul, com todas as informações para a organização contábil e a rastreabilidade dos atendimentos.
+Recursos Necessários
+Computador
+Acesso ao Conta Azul
+WhatsApp Business
+Ações
+
+2
+4.0 Selecionar o Centro de Custo correspondente.
+Ex: Primeira consulta de psiquiatria.
+5.0 Inserir os itens da venda.
+5.1 Selecionar o serviço prestado.
+5.2 Inserir o valor unitário do serviço prestado.
+Se for pagamento parcelado, inserir o valor total com juros.
+
+6.0 Preencher as informações de pagamento.
+6.1 Selecionar a forma de pagamento.
+Atenção: Não selecionar as opções de "Cobrança Conta Azul"; selecionar somente "Outras Cobranças" 
+6.2 Selecionar a conta de recebimento: Sicoob - Conta Corrente.
+6.4 Selecionar condição de pagamento correspondente.
+O pagamento foi no Cartão de Crédito?
+SIM
+7.0 Preencher a bandeira do cartão no campo de observações de pagamento.
+
+O pagamento foi no Cartão de Crédito?
+NÃO
+
+
+
+
+
+
+3
+8.0 Inserir informações complementares da nota fiscal.
+Qual o tipo de atendimento?
+CONSULTA DE PSIQUIATRIA
+PRESTAÇÃO DE SERVIÇO MÉDICO DE ATENDIMENTO AMBULATORIAL E PSIQUIATRIA REFERENTE À CONSULTA DO DIA DD/MM/AA ÀS HH:MM.
+CONSULTA AVULSA PSICOTERAPIA
+PRESTAÇÃO DE  SERVIÇO DE PSICOTERAPIA REFERENTE À SESSÃO DO DIA DD/MM/AA ÀS HH:MM COM A PSICÓLOGA X.
+PACOTE DE PSICOTERAPIA
+PRESTAÇÃO SERVIÇO DE PSICOTERAPIA REFERENTE AO PACOTE DE 4 SESSÕES COM A PSICÓLOGA X.
+
+9.0 Salvar e emitir nota
+10.0 Confirmar a emissão da nota
+11.0 Informar o recebimento
+
+Qual foi a forma de pagamento?
+Cartão de Crédito à vista ou Débito
+11.1 Inserir em tarifa o valor do juros.
+11.2 Informar recebimento
+
+Qual foi a forma de pagamento?
+Cartão de Crédito parcelado
+11.1 Inserir em tarifa o juros em cada parcela.
+11.2 Informar recebimento
+
+Qual foi a forma de pagamento?
+PIX
+11.1 Informar recebimento
+
+12.0 Entregar Nota Fiscal para o paciente na saída da consulta ou enviar no WhatsApp.
+FIM DO PROCESSO.

@@ -1,0 +1,37 @@
+1.0  Localizar o whatsapp do paciente que não compareceu à consulta no Doctoralia e/ou VSaúde.
+2.0 Realizar o primeiro contato via WhatsApp no mesmo dia.
+Mensagem:
+Oi, [NOME]. Estou entrando em contato para saber se está tudo bem. O Sr.(a) não compareceu à consulta marcada com o(a) (profissional de saúde). Houve algum motivo específico para a ausência?
+
+3.0 Aguardar a resposta do paciente
+Tentar entender o que aconteceu.
+
+O paciente respondeu com justificativa plausível?
+SIM
+3.1 Oferecer os próximos horários disponíveis para reagendamento
+3.2 Reagendar consulta do paciente
+1
+Procedimento Operacional Padrão
+Tarefa
+Não Comparecimento à Consulta
+Responsável 
+Islayne (psiquiatria) Yan (psicoterapia)
+Objetivo
+Entrar em contato com pacientes que não compareceram à consulta agendada, oferecer suporte e reforçar a política de cancelamento da clínica.
+Recursos Necessários
+Computador
+Acesso ao VSaúde e Doctoralia
+WhatsApp
+Ações
+
+2
+
+O paciente respondeu com justificativa plausível?
+NÃO
+
+3.1 Informar que, para o novo agendamento será necessário realizar o pagamento antecipado
+3.2 Informar os horários disponíveis para reagendamento
+Caso paciente reclame e não tenha justificativa plausível, pedir desculpas pelo transtorno e informar que na política de cancelamento tinha sido informado.
+
+FIM DO PROCESSO.
+

@@ -1,0 +1,52 @@
+1.0 Chegar na clínica às 8 da manhã.
+2.0 Limpar a clínica 508.
+Checklist de limpeza da sala 508
+A limpeza das salas 508 e 510 devem ser realizadas diariamente antes das 8h da manhã, especialmente às terças-feiras para a sala 508. 
+3.0 Reabastecer itens da clínica conforme necessidade.
+Checklist de reabastecimento dos insumos
+4.0 Verificar os equipamentos e itens essenciais.
+Identificar dispositivos fora da tomada ou descarregados e carregá-los.
+Maquininha SIPAG
+4.1 Ligar equipamentos necessários.
+Ligar computadores e ar-condicionado.
+
+Procedimento Operacional Padrão
+Tarefa
+Check-list Diário (Yan)
+Responsável 
+Yan
+Objetivo
+Garantir o início do expediente organizado e executar rotina de confirmação de consultas e comunicações com pacientes, garantindo organização da agenda e fluxo de caixa controlado.
+Recursos Necessários
+Acesso ao Doctorária e ao VSaúde;
+WhatsApp Business da clínica
+Acesso ao Conta Azul
+Ações
+1
+
+5.0 Sentar-se à mesa da recepção.
+6.0 Preencher a planilha de retiradas de estoque 
+Preencher a quantidade de cada item reabastecido.
+7.0 Realizar envio de mensagens padrão programadas.
+7.1 Enviar mensagens padrão de confirmação de consulta.
+POP
+7.2 Enviar mensagens padrão de recebimento de consulta online.
+POP
+7.3 Enviar mensagens padrão para pacientes que agendaram via Doctoralia e VSaúde.
+POP
+7.4 Enviar mensagens padrão de acompanhamento pós-consulta psiquiátrica (15 dias).
+POP
+7.5 Enviar mensagens padrão de 60 dias após não vir em consulta.
+POP
+7.6 Enviar mensagens padrão de NPS após a primeira consulta.
+POP
+8.0 Realizar conciliação bancária dos lançamentos de ontem.
+POP
+2
+
+9.0 Comparar as entradas com os comprovantes enviados no grupo "Entradas de Pagamentos".
+9.1 Informar qualquer divergência à gerência ou registrar no grupo interno para conferência posterior.
+10.0 Iniciar processo de recepção dos pacientes e tarefas específicas ao longo do dia.
+
+FIM DO PROCESSO.
+3

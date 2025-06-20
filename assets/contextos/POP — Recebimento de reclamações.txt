@@ -1,0 +1,22 @@
+1.0 Receber o paciente na clínica ou ambiente virtual.
+2.0 Registrar a reclamação na planilha.
+Tentar entender o que ocorreu e pensar em soluções.
+3.0 Informar ao gerente (Marcos) e enviar a reclamação no WhatsApp do Dr. Marco Túlio.
+Descrever o que aconteceu e quais medidas foram tomadas.
+Pensar no que pode ser feito para não ter ter mais a mesma reclamação.
+4.0 Informar pessoalmente o Dr. Marco Túlio sobre a reclamação no horário do almoço ou no fim do dia.
+5.0 Responder a reclamação.
+
+FIM DO PROCESSO
+1
+Procedimento Operacional Padrão
+Tarefa
+Recebimento de reclamações
+Responsável 
+Islayne, Marcos e Yan
+Objetivo
+Identificar pontos de melhoria no atendimento, aprimorar a qualidade dos serviços e aumentar a satisfação do paciente.
+Recursos Necessários
+Computador
+WhatsApp
+Ações

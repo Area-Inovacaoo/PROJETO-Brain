@@ -1,0 +1,19 @@
+1.0 Listar pacientes que não possuem consultas de retorno marcadas.
+
+2.0 Imprimir lista com os nomes dos pacientes e entregar ao Dr. Marco Tulio diariamente.
+O Dr. Marco Túlio vai informar qual a indicação de retorno (30, 60 ou 90 dias).
+
+FIM DO PROCESSO
+1
+Procedimento Operacional Padrão
+Tarefa
+Follow-up de Pacientes de Psiquiatria Sem Retorno
+Responsável 
+Yan
+Objetivo
+Retomar o contato com pacientes que passaram em consulta psiquiátrica, mas que não agendaram retorno, com foco em estimular a continuidade do tratamento e reforçar o cuidado proativo da clínica.
+Recursos Necessários
+Celular
+Doctoralia
+WhatsApp Business
+Ações

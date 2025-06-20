@@ -1,0 +1,56 @@
+1.0 Identificar necessidade de compra
+2.0 Verificar os fornecedores já cadastrados para o produto.
+3.0 Solicitar pelo menos 3 orçamentos
+Comparar preços, prazo e qualidade
+O preço médio aumentou significativamente desde a última compra?
+SIM
+3.1 Buscar novos fornecedores e incluir na cotação
+
+O preço médio aumentou significativamente desde a última compra?
+NÃO
+1
+Procedimento Operacional Padrão
+Tarefa
+Compras
+Responsável 
+Marcos
+Objetivo
+Garantir aquisições eficientes, com responsabilidade financeira e critérios de comparação, buscando o melhor custo-benefício para a clínica, por meio de práticas padronizadas de orçamento, aprovação e registro.
+Recursos Necessários
+Computador
+Planilha de Controle de Estoque
+Grupo interno de compras e aprovação (WhatsApp ou Trello)
+Nota fiscal para reembolso ou Cartão de Crédito
+Ações
+
+4.0 Analisar o valor total da compra conforme faixa de valor.
+
+A compra é acima de R$ 200,00?
+SIM
+
+4.1 Abrir Ordem de Compra.
+Modelo de ordem de compra
+
+4.2 Coletar aprovação do Dr. Marco.
+
+A compra é abaixo de R$ 200,00?
+NÃO
+
+5.0 Realizar compra com o fornecedor escolhido.
+
+Qual foi a forma de pagamento?
+PIX
+
+5.1 Enviar nota fiscal no grupo "Despesas da Clínica".
+5.2 Solicitar reembolso da empresa.
+Informar valor, motivo da compra e anexar nota fiscal.
+
+Qual foi a forma de pagamento?
+Cartão de Crédito à vista ou parcelado.
+
+5.2 Enviar nota fiscal no grupo "Gastos Cartão de Crédito da Clínica".
+
+6.0 Informar pagamento para o faturamento.
+
+FIM DO PROCESSO.
+2

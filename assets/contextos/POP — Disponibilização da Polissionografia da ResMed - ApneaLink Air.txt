@@ -1,0 +1,73 @@
+1.0 Iniciar o atendimento para agendamento do exame de polissonografia.
+O paciente deseja exame de quantos dias?
+1 dia
+1.1 Informar o valor de R$ 700,00
+O paciente deseja exame de quantos dias?
+2 dias
+1.2 Informar o valor de R$ 1.100,00
+1.3 Receber o pagamento do exame
+
+1.4 Solicitar o documento de identificação do paciente
+2.0 Acessar o ambiente virtual do Parallels no computador da clínica
+Software que emula o Windows no iOS
+1
+Procedimento Operacional Padrão
+Tarefa
+Disponibilização da Polissonografia da ResMed
+Responsável 
+Islayne
+Objetivo
+Garantir a correta liberação, orientação e registro do exame de polissonografia da ResMed, assegurando clareza para o paciente, segurança jurídica e integridade do equipamento.
+Recursos Necessários
+Computador
+Acesso ao Parallels
+Acesso ao ResMed
+Termos de Responsabilidade
+Ações
+
+3.0 Logar na plataforma AirView com usuário e senha
+Link de acesso: https://airview.resmed.com/login
+Senhas: https://docs.google.com/spreadsheets/d/10LjSFLHL06VGra5rp4Wfqa9aqYocCf2D/edit?usp=sharing&ouid=117841794221606563433&rtpof=true&sd=true
+
+4.0 Navegar até: Pacientes → Diagnóstico → Novo Paciente
+5.0 Cadastrar novo paciente
+Nome e sobrenome do paciente
+Data de nascimento
+Gênero
+6.0 Preparar o equipamento
+6.1 Conectar o aparelho ApneaLink Air ao computador via cabo USB
+6.2 Vincular o aparelho ao paciente cadastrado no AirView
+6.3 Configurar o exame conforme a orientação padrão da clínica
+6.4 Verificar se o número de série do equipamento está correto o registro
+
+7.0 Pegar ou imprimir o Termo de Responsabilidade.
+
+8.0 Preencher duas vias do Termo de Responsabilidade.
+Nome completo do paciente.
+Número do documento de identidade.
+Número do CPF.
+Data e hora da retirada.
+Data e horário limite de devolução (sempre às 14h do dia seguinte ao final do exame).
+Número de série do equipamento ResMed.
+2
+
+3
+9.0 Explicar as regras do Termo ao paciente.
+Data e horário limite de devolução do aparelho.
+Reforçar as penalidades em caso de atraso na devolução, dano ou perda.
+
+10.0 Solicitar a assinatura do paciente nas duas vias do Termo.
+10.1 Assinar como testemunha do Termo.
+10.2 Entregar a via do paciente e guardar nossa via na gaveta da recepção.
+
+12.0 Orientar o paciente sobre o uso do aparelho
+Retirar o aparelho da bolsa.
+Mostrar cada item da bolsa.
+Como posicionar a cinta torácica
+Como colocar o sensor nasal
+Como ligar o aparelho
+Cuidados durante o uso
+13.0 Tirar eventuais dúvidas do paciente.
+14.0 Encaminhar o paciente à saída.
+
+FIM DO PROCESSO.

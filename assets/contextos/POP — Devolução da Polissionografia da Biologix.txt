@@ -1,0 +1,61 @@
+1.0 Receber o paciente na recepção.
+2.0 Receber o aparelho de polissonografia do paciente. 
+3.0 Conferir o Termo de Responsabilidade.
+O equipamento foi devolvido dentro do prazo?
+NÃO
+3.1 Calcular e informar ao paciente o valor da multa por atraso (R$ 250,00 por dia de atraso)3.2 Registrar o atraso no Termo de Responsabilidade.
+
+O equipamento foi devolvido dentro do prazo?
+SIM
+
+4.0 Verificar o estado físico do equipamento
+1
+Procedimento Operacional Padrão
+Tarefa
+Devolução da Polissionografia da Biologix
+Responsável 
+Islayne
+Objetivo
+Garantir a devolução segura e dentro do prazo do equipamento de polissonografia da Biologix, e nova promover os cuidados para uma nova disponibilização do aparelho.
+Recursos Necessários
+Computador
+Acesso ao Sistema da Biologix
+Termos de Responsabilidade
+Ações
+
+
+O equipamento está danificado?
+SIM
+4.1 Informar ao paciente que será cobrado o ressarcimento de R$ 3.000,00 conforme previsto no Termo.
+
+O equipamento está danificado?
+NÃO
+5.0 Registrar no Termo o estado que o equipamento foi devolvido.
+
+6.0 Acessar o site da Biologix e localizar o paciente
+Link de acesso: https://portal.biologix.com.br/login
+
+7.0 Imprimir o resultado do exame e entregá-lo ao paciente.
+Recomendar ao paciente retornar ao médico para interpretação do exame.
+
+8.0 Encaminhar o paciente para a saída da Clínica.
+9.0 Preparar o equipamento.
+
+Ainda há esparadrapo na bolsa?
+NÃO
+
+9.1 Colocar novo esparadrapo na bolsa.
+
+Ainda há esparadrapo na bolsa?
+SIM
+
+10.0 Realizar o procedimento a limpeza do equipamento.
+Limpar o equipamento com pano macio e álcool.
+2
+
+11.0 Colocar o aparelho para carregar.
+
+12.0 Colocar o aparelho na gaveta da recepção.
+
+FIM DO PROCESSO.
+3

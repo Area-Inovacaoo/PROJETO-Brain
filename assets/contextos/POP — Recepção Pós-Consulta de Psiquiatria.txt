@@ -1,0 +1,32 @@
+1.0 Receber o paciente de volta na recepção.
+2.0 Entregar a nota fiscal para o paciente 
+3.0 Abrir o Doctoralia e o VSaúde
+4.0 Perguntar para o paciente quando o Dr. recomendou o retorno.
+Geralmente o período de retorno é de 30, 60 ou 90 dias
+5.0 Informar as datas disponíveis para retorno e ver qual o paciente prefere
+O paciente aceitou a consulta de retorno?
+SIM
+
+6.0 Marcar a consulta de retorno no Doctoralia e no VSaúde.
+O paciente aceitou a consulta de retorno?
+NÃO
+1
+Procedimento Operacional Padrão
+Tarefa
+Recepção Pós-Consulta de Psiquiatria
+Responsável 
+Islayne
+Objetivo
+Garantir acolhimento, organização e orientações claras para o paciente e promover um ambiente tranquilo e profissional.
+Recursos Necessários
+Computador
+Acesso ao Doctoralia
+Ações
+
+2
+5.0 Entender as possíveis  objeções:
+ "Mais próximo da data eu agendo": Sugerir já deixar agendado o retorno e avisar que enviamos mensagem de confirmação 5 dias antes e caso for preciso reagendamos o horário.
+Caso o paciente insista em agendar depois:
+Informar que a maioria dos pacientes que deixam para marcar em cima da hora não conseguem horário próximo e pode correr o risco de não ter horário disponível.
+
+FIM DO PROCESSO.

@@ -1,0 +1,69 @@
+1.0 Verificar a agenda de pacientes com consulta marcada para daqui 5 dias.
+Consultar a agenda dos pacientes de psiquiatria do Doctoralia e VSaúde.
+2.0 Localizar o WhatsApp do paciente.
+Consultar no cadastro do paciente no Doctoralia e VSaúde ou no WhatsApp.
+3.0 Enviar mensagem padrão de confirmação de consulta via WhatsApp.
+Utilizar comando /confirmação5dias no WhatsApp. 
+Alterar o nome do paciente e o nome do profissional de saúde.
+
+O paciente respondeu a mensagem de confirmação?
+SIM
+3.1 Atualizar o status da consulta no Doctorália e VSaúde.
+3.2 FIM DO PROCESSO
+1
+Procedimento Operacional Padrão
+Tarefa
+Confirmação de Consulta de Psiquiatria
+Responsável 
+Yan
+Objetivo
+Assegurar que os pacientes confirmem previamente suas consultas psiquiátricas, garantindo o comparecimento, evitando ausências e otimizando a agenda médica.
+Recursos Necessários
+Acesso à agenda do VSaúde;
+WhatsApp Business.
+Ações
+
+2
+2
+
+O paciente respondeu à mensagem de confirmação?
+NÃO
+
+4.0 Enviar nova mensagem de confirmação 4 dias antes.
+
+O paciente respondeu à mensagem de confirmação?
+SIM
+
+4.1 Atualizar o status do pagamento no Doctoralia e VSaúde.4.2 FIM DO PROCESSO.
+
+O paciente respondeu á mensagem de confirmação?
+NÃO
+
+5.0 Ligar para o paciente 4 dias antes.
+
+O paciente atendeu a ligação de confirmação?
+SIM
+
+5.1 Atualizar o status  no Doctoralia e VSaúde.5.2 FIM DO PROCESSO.
+
+O paciente atendeu a ligação de confirmação?
+NÃO
+
+6.0 Enviar última mensagem de confirmação 3 dias antes.
+O paciente respondeu à mensagem de confirmação?
+SIM
+
+3
+3
+6.1 Atualizar o status no Doctoralia e VSaúde.
+
+6.2 FIM DO PROCESSO.
+
+O paciente respondeu à mensagem de confirmação?
+NÃO
+6.3  Enviar a mensagem padrão de cancelamento de consulta
+Utilizar o comando /
+6.4  Cancelar a consulta.
+
+
+FIM DO PROCESSO.

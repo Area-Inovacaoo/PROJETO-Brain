@@ -1,0 +1,53 @@
+1.0 Receber o paciente na clínica.
+2.0 Cumprimentar o paciente.
+3.0 Oferecer ativamente algo para beber e comer.
+O paciente deseja algo?
+SIM
+4.0 Servir o paciente.
+5.0 Perguntar se a temperatura e estilo musical estão agradáveis
+Ajustar a temperatura do ar condicionado caso o paciente prefira.
+Trocar música, caso o paciente solicite.
+É a primeira consulta?
+SIM
+6.0 Pedir o documento de identificação com foto do paciente.
+
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Recepção Pré-Consulta 
+Responsável 
+Islayne e Yan
+Objetivo
+Garantir acolhimento, organização e orientações claras para o paciente e promover um ambiente tranquilo e profissional.
+Recursos Necessários
+Computador
+Acesso ao Doctorália e ao VSaúde
+Equipamento para aferição de pressão
+Itens de hospitalidade
+Manual de Encantamento
+Ações
+
+2
+6.1 Preencher a ficha completa do paciente no Doctoralia e no VSaúde.
+Nome e sobrenome (igual está no documento), gênero, data de nascimento, CPF, e endereço com CEP.
+
+É a primeira consulta?
+NÃO
+
+7.0 Atualizar os dados do paciente.
+Nome e sobrenome (igual está no documento), gênero, data de nascimento, CPF, e endereço com CEP.
+8.0 Perguntar ao paciente se ele deseja a nota fiscal no nome dele.
+Se o paciente desejar que a nota fiscal seja em nome de outra pessoa, pegar os dados dessa pessoa (Nome completo, CPF e endereço com número e CEP).
+Informar os dados da pessoa que deve ser emitida a nota fiscal nas anotações do agendamento no Doctoralia.
+9.0 Verificar no sistema se o pagamento foi realizado, caso não tenha sido, receber o pagamento.
+Cartão: verificar no SIPAG
+PIX ou transferência: verificar com o gerente (Marcos)
+10.0 Pedir para aferir a pressão do paciente.
+Exemplo: “Com licença, posso aferir sua pressão?”
+11.0 Aferir a pressão do paciente.
+12.0 Anotar informações em um papel.
+13.0 Informar que o paciente deve aguardar até ser chamado pelo profissional. 
+Caso esteja com atraso, avisar o paciente a nova previsibilidade de horário e pedir desculpas pelo imprevisto.
+14.0 Entregar o papel de anotação quando o profissional chamar o paciente.
+FIM DO PROCESSO.

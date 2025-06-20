@@ -1,0 +1,73 @@
+1.0 Enviar a mensagem padrão de pagamento antecipado para o lead interessado.
+Utilizar comando /marcoPagamentoAntecipado no WhatsApp
+Paciente fez o pagamento no PIX?
+NÃO
+2.0 Perguntar ao paciente qual forma de pagamento ele deseja pagar.
+Qual é a forma de pagamento?
+Cartão de Crédito à vista.
+2.1 Logar no Portal do Lojista - SIPAG.
+2.2 Clicar em "Link de pagamento".
+2.3 Clicar em "Gerar link de pagamento".
+2.4 Nomear o link de pagamento.
+Ex: Pagamento Dr. Marco Tulio.
+1
+Procedimento Operacional Padrão
+Tarefa
+Recebimento de Primeira Consulta de Psiquiatria
+Responsável 
+Islayne
+Objetivo
+Garantir o recebimento antecipado do pagamento da primeira consulta, garantindo o compromisso do paciente com o agendamento.
+Recursos Necessários
+Computador
+Sistema do SIPAG
+Tabela de juros
+Chave PIX SICOOB
+Acesso ao VSaúde
+Ações
+
+2.5 Configurar data de expiração para o dia seguinte.
+2.6 Informar a quantidade de vendas do link de pagamento
+2.6 Incluir descrição do link de pagamento.
+Ex: Link de pagamento de primeira consulta com o Dr. Marco Túlio.
+2.7 Informar o valor da primeira consulta em "Valor a ser cobrado".
+2.8 Enviar o link de pagamento para o paciente.
+
+Qual é a forma de pagamento?
+Cartão de Crédito parcelado.
+2.9 Informar que a taxa da maquininha é paga pelo paciente.
+2.10 Perguntar ao paciente a bandeira do Cartão de Crédito e quantas vezes ele quer dividir.
+2.11 Pegar a tabela de juros da clínica.
+2.12 Calcular o juros da maquininha.
+Valor final = Valor da consulta + juros da maquininha conforme tabela de juros.
+2.13 Logar no Portal do Lojista - SIPAG.
+2.14 Clicar em "Link de pagamento".
+2.15 Clicar em "Gerar link de pagamento".
+2.16 Nomear o link de pagamento.
+Ex: Pagamento consulta Dr. Marco Tulio.
+2.17 Configurar data de expiração para o dia seguinte.
+2.6 Informar a quantidade de vendas do link de pagamento
+2.18 Incluir descrição do link de pagamento.
+Ex: Link de pagamento de primeira consulta com o Dr. Marco Túlio.
+2.19 Informar o valor final (consulta + juros) em "Valor a ser cobrado".2.20 Informar a quantidade de parcelas.
+2.21 Enviar o link de pagamento para o paciente.
+
+
+2
+
+3
+3.0 Receber o comprovante de pagamento do paciente
+Conferir se o valor entrou na conta
+Link de cartão verificar no site da SIPAG
+PIX ou transferência verificar com o gerente (Marcos)
+
+4.0 Enviar mensagem padrão de políticas da clínica.
+Utilizar comando /PoliticaCancelamentos no WhatsApp.
+
+5.0 Enviar o comprovante de pagamento no grupo de WhatsApp "Entradas de pagamentos".
+
+6.0 Realizar o agendamento no Doctoralia e no VSaúde.
+6.0 Alterar o status de pagamento como "pago via [forma de pagamento]" no Doctoralia e no VSaúde.
+6.1 Informar nas observações a forma e a data de pagamento.
+
+FIM DO PROCESSO.

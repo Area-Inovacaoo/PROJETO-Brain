@@ -1,0 +1,24 @@
+1.0 Identificar a lista de pacientes que realizaram consulta psiquiátrica há 15 dias.
+2.0 Enviar mensagem padrão de 15 dias via WhatsApp
+Utilizar os comandos /15diaapos no WhatsApp.
+
+O paciente respondeu que está se sentido bem?
+NÃO
+2.1 Orientar ao paciente que entre em contato com o médico.
+
+O paciente respondeu que está se sentido bem?
+SIM
+3.0 Enviar mensagem reforçando que estamos à disposição do paciente.
+FIM DO PROCESSO
+1
+Procedimento Operacional Padrão
+Tarefa
+Acompanhamento Pós-Consulta Psiquiátrica (15 dias)
+Responsável 
+Yan
+Objetivo
+Acompanhar a evolução do paciente 15 dias após a consulta psiquiátrica, oferecendo suporte, reforçando o vínculo com a clínica e identificando precocemente a necessidade de ajustes no tratamento.
+Recursos Necessários
+Acesso ao Doctoralia e VSaúde
+WhatsApp Business
+Ações

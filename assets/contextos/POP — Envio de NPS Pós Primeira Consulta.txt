@@ -1,0 +1,21 @@
+1.0 Verificar os pacientes que realizaram primeira consulta no dia anterior
+Utilizar agenda do Doctoralia.
+1.2 Localizar o WhatsApp do paciente.
+Consultar no cadastro do paciente no Doctoralia, VSaúde ou no WhatsApp.
+1.3 Enviar mensagem padrão de NPS no WhatsApp.
+Utilizar comando /nps no WhatsApp
+1.5 FIM DO PROCESSO.
+
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Envio de Avaliação da consulta e NPS Pós Primeira Consulta
+Responsável 
+Yan
+Objetivo
+Coletar feedback dos pacientes por meio de formulário NPS (Net Promoter Score), com foco em identificar oportunidades de melhoria e reforçar o compromisso com um atendimento de excelência.
+Recursos Necessários
+Acesso à agenda do VSaúde;
+WhatsApp Business.
+Ações

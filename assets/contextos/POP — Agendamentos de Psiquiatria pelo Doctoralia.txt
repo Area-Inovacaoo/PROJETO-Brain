@@ -1,0 +1,69 @@
+1.0 Identificar novos agendamentos pelo Doctoralia.
+2.0 Verificar no sistema se é primeira consulta ou de retorno.
+
+O paciente agendou primeira consulta?
+SIM
+2.1 Enviar mensagem padrão solicitando o pagamento antecipado
+Utilizar os comandos /boasVindasAgendDoctoralia e após /MarcoPagamentoAntecipado no WhatsApp. 
+
+2.2 Realizar o recebimento do pagamento de primeira consulta.
+POP
+
+2.3 Se o paciente não pagar em até 2 horas, entrar em contato e enviar a seguinte mensagem: "Oi, Sr(a). (nome). Tudo bem? Passou o prazo de 2 h e  não recebemos o comprovante de pagamente, preciso dele para confirmar a sua consulta. Caso não seja realizado o pagamento em até 1 hora, a consulta vai ser cancelada e o horário vai ser aberto para encaixe. Agradecemos a compreensão."
+O paciente agendou consulta de retorno?
+SIM
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Agendamentos de Psiquiatria pelo Doctoralia
+Responsável 
+Yan
+Objetivo
+Garantir o controle e recebimento adequado para consultas agendadas via Doctoralia, respeitando as regras da clínica de pagamento antecipado para primeiras consultas.
+Recursos Necessários
+Acesso ao Doctoralia
+WhatsApp Business
+Ações
+
+2
+2
+
+O paciente respondeu à mensagem de confirmação?
+NÃO
+
+4.0 Enviar nova mensagem de confirmação 4 dias antes.
+
+O paciente respondeu à mensagem de confirmação?
+SIM
+
+4.1 Atualizar o status do pagamento no Doctoralia e VSaúde.4.2 FIM DO PROCESSO.
+
+O paciente respondeu á mensagem de confirmação?
+NÃO
+
+5.0 Ligar para o paciente 4 dias antes.
+
+O paciente atendeu a ligação de confirmação?
+SIM
+
+5.1 Atualizar o status do pagamento no Doctoralia e VSaúde.5.2 FIM DO PROCESSO.
+
+O paciente atendeu a ligação de confirmação?
+NÃO
+
+6.0 Enviar última mensagem de confirmação 3 dias antes.
+O paciente respondeu à mensagem de confirmação?
+SIM
+
+3
+3
+6.1 Atualizar o status do pagamento no Doctoralia e VSaúde.
+
+6.2 FIM DO PROCESSO.
+
+O paciente respondeu à mensagem de confirmação?
+NÃO
+6.3 Cancelar a consulta.
+
+FIM DO PROCESSO.

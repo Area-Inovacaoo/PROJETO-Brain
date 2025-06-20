@@ -1,0 +1,27 @@
+1.0 Iniciar o procedimento de encerramento do dia.
+2.0 Organizar sua estação de trabalho.
+Guardar objetos pessoais, organizar materiais na mesa, desligar equipamentos eletrônicos.
+Está no final do expediente e não há mais ninguém na clínica?
+SIM
+3.0 Desligar as luzes das salas.
+Conferir todas as luzes dos consultórios e das recepções.
+3.1 Desligar os ar-condicionados.
+Conferir se há mais de um aparelho em funcionamento.
+3.2 Trancar as portas da sala 510 e 508.
+Procedimento Operacional Padrão
+Tarefa
+Check-Out Diário
+Responsável 
+Marcos ou o último a sair
+Objetivo
+Garantir o fechamento adequado da clínica ao final do expediente, com organização, economia de energia, segurança patrimonial e preparo do ambiente para o próximo dia de atendimento.
+Recursos Necessários
+Computador
+Chaves das salas 508 e 510
+Ações
+1
+
+4.0 Encerrar procedimento
+Caso note algo fora do padrão, comunicar imediatamente no grupo interno da clínica
+FIM DO PROCESSO.
+2

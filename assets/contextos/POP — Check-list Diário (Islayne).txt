@@ -1,0 +1,42 @@
+Procedimento Operacional Padrão
+Tarefa
+Check-list Diário (Islayne)
+Responsável 
+Islayne
+Objetivo
+Garantir o início do expediente organizado promovendo uma experiência acolhedora e profissional para os pacientes desde o primeiro atendimento do dia.
+Recursos Necessários
+Materiais de limpeza;
+Materiais de atendimento ao cliente;
+Computador e celular.
+Ações
+1.0 Chegar na clínica às 7 da manhã.
+2.0 Limpar a clínica 510.
+Checklist de limpeza da sala 510
+3.0 Reabastecer itens da clínica conforme necessidade.
+Checklist de reabastecimento dos insumos
+4.0 Verificar os equipamentos e itens essenciais.
+Identificar dispositivos fora da tomada ou descarregados e carregá-los.
+Celular
+Maquininha SIPAG
+4.1 Ligar equipamentos necessários.
+Ligar computadores e ar-condicionado.
+ 
+1
+
+2
+5.0 Sentar-se à mesa da recepção.
+6.0 Preencher a planilha de retiradas de estoque 
+Preencher a quantidade de cada item reabastecido.
+7.0 Responder novos mensagens no WhatsApp.
+8.0 Fazer gestão da agenda.
+Tem furos na agenda da semana?
+SIM
+8.1 Fazer realocação da agenda.
+POP
+Tem furos na agenda da semana?
+NÃO
+
+9.0 Iniciar processo de recepção dos pacientes e tarefas específicas ao longo do dia.
+
+FIM DO PROCESSO.

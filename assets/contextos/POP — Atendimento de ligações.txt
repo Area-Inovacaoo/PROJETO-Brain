@@ -1,0 +1,57 @@
+1.0 Atender o telefone
+2.0 Consultar, se necessário
+FAQ com respostas padrões
+Script de venda
+A ligação é para marcar consulta?
+SIM
+2.1 Seguir o nosso Script de venda
+2.2 Verificar datas e horários disponíveis no Doctorália
+Caso o paciente tenha objeções, avaliar quais são, caso a gente consiga resolver aquela objeção, contornar a objeção falando sobre o nosso trabalho, o valor que pode ser agregado
+Não prometer algo que não fazemos.
+Caso o paciente tenha dúvida, responder a dúvida.
+2.3 Pegar os dados do paciente em ligação
+
+2.4 Informar os dados de pagamento 
+1
+Procedimento Operacional Padrão
+Tarefa
+Atendimento de ligações
+Responsável 
+Islayne e Yan
+Objetivo
+Garantir um atendimento telefônico profissional, cordial e eficiente, esclarecendo dúvidas dos pacientes e direcionando corretamente os agendamentos e informações.
+Recursos Necessários
+Celular
+Acesso ao Doctorália e ao VSaúde
+Script de venda
+FAQ
+Ações
+
+2
+2.4 Agendar a consulta no Doctorália
+Finalizada a ligação, agendar no VSaúde
+
+2.5 Enviar os dados de pagamento no WhatsApp
+
+2 horas depois: O paciente pagou?
+NÃO
+
+Enviar mensagem:  "Oi, Sr(a). (nome). Tudo bem? Passou o prazo de 2 h e  não recebemos o comprovante de pagamente, preciso dele para confirmar a sua consulta. Caso não seja realizado o pagamento em até 1 hora, a consulta vai ser cancelada e o horário vai ser aberto para encaixe. Agradecemos a compreensão.
+
+1hora depois: O paciente pagou?
+NÃO
+
+Enviar mensagem de cancelamento de consulta
+
+FIM DO PROCESSO
+
+2horas depois: o paciente pagou?SIM
+Finaliza o processo
+
+A ligação é para marcar consulta?
+NÃO
+2.1 Responder dúvidas do paciente
+
+5.0 Finalizar a ligação
+
+FIM DO PROCESSO

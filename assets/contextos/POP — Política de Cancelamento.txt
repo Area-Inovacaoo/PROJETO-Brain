@@ -1,0 +1,42 @@
+1.0  Visualizar a mensagem com o pedido de cancelamento do paciente.
+O pedido de cancelamento foi realizado com no mínimo 24 horas de antecedência?
+NÃO
+1.1 Verificar se o cancelamento se deu por um motivo de saúde ou justificativa plausível.
+O cancelamento teve justificativa plausível?
+SIM
+1.1.1 Iniciar o processo de reembolso.
+O cancelamento teve justificativa plausível?
+NÃO
+1.1.1 Avisar que não haverá reembolso conforme nossa política de cancelamento.
+O pedido de cancelamento foi realizado com no mínimo 24 horas de antecedência?
+SIM
+
+1
+Procedimento Operacional Padrão
+Tarefa
+Política de Cancelamento e Reembolso
+Responsável 
+Islayne e Yan
+Objetivo
+Garantir a eficiência da agenda, evitando perdas de tempo e recursos.
+Recursos Necessários
+Computador
+Acesso ao VSaúde e Doctoralia
+Ações
+
+2
+1.1 Iniciar o processo de reembolso
+1.2 Cancelar a consulta no VSaúde e no Doctorália
+1.3 Solicitar dados bancários do paciente
+1.4 Avisar que a clínica tem 72 horas para efetuar o reembolso
+2.0 Encaminhar os dados bancários do paciente para o Marcos fazer a transação do pagamento e avisar ao Dr. Marco Túlio para avaliar a situação.
+O Dr. Marco Túlio aprovou o reembolso?
+SIM
+2.1 Encaminhar o comprovante para o paciente.
+2.2 Enviar o comprovante para o grupo "Despesas da clínica".
+O Dr. Marco Túlio aprovou o reembolso?
+NÃO
+2.1 Enviar mensagem ao paciente informando o motivo.
+
+FIM DO PROCESSO.
+

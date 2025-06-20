@@ -1,0 +1,55 @@
+1.0 Perguntar ao paciente a forma de pagamento
+Sempre perguntar se vai ser no PIX primeiro.
+Qual é a forma de pagamento?
+PIX
+1.2 Informar ao paciente a chave PIX ou gerar QR Code na máquina de cartão.
+1.3 Solicitar que o paciente envie o comprovante no WhaotsApp.
+1.4 Conferir se o valor entrou na conta.
+PIX ou transferência: verifica com o gerente (Marcos).
+
+Qual é a forma de pagamento?
+Cartão de Crédito parcelado.
+1.5 Informar ao paciente que a taxa da maquininha é paga por ele.
+1.6 Pegar a tabela de juros da clínica.
+1
+Procedimento Operacional Padrão
+Tarefa
+Recebimento de Consulta (Retorno e Psicoterapia)
+Responsável 
+Islayne e Yan
+Objetivo
+Receber o pagamento da consulta de retorno e consulta avulsa de psicologia, assegurando a transparência financeira.
+Recursos Necessários
+Computador
+Maquininha SIPAG
+Tabela de juros
+Chave PIX SICOOB
+Acesso ao Doctoralia 
+Ações
+
+2
+1.7 Calcular o juros da maquininha.
+Valor final = Valor da consulta + juros da maquininha conforme tabela de juros.
+1.8 Inserir o valor final na maquininha.
+1.9 Apresentar a maquininha ao paciente para pagamento.
+1.10 Retirar o comprovante da maquininha.
+
+Qual é a forma de pagamento?
+Cartão de Crédito à vista
+1.11 Pegar maquininha SIPAG.
+1.12 Colocar o valor da consulta de retorno.
+1.13 Apresentar a maquininha ao paciente para pagamento.
+1.14 Retirar o comprovante da maquininha.
+
+2.0 Perguntar ao paciente se ele deseja a nota fiscal no nome dele. 
+Caso o paciente não deseje a nota fiscal em seu, coletar os dados da pessoa que deve ser emitida a nota fiscal (CPF, nome completo, endereço com número e CEP).
+
+3.0 Enviar o comprovante de pagamento no grupo de WhatsApp "Entradas de pagamentos". 
+Essa tarefa informa que o pagamento deve ser faturado.
+
+4.0 Atualizar o agendamento no Doctoralia e VSaúde.
+Caso o paciente solicite a nota fiscal em nome de terceiros, informar os dados da pessoa nas anotações do agendamento no Doctoralia
+Alterar o status de pagamento como "pago".
+Informar a forma de pagamento.
+Informar nas observações a forma e a data de pagamento.
+FIM DO PROCESSO.

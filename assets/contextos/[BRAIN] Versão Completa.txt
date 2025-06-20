@@ -1,0 +1,1550 @@
+Projeto
+BRAIN
+Consultoras: Camila Borges e Suzana Stella
+Gerente: Carolina Braga
+Customer Success: Rodrigo Nathan
+
+SUMÁRIO
+2
+1.	Contextualização……………………………………………….03
+Empresa…………………………………………………04
+Mercado…………………………………………………05
+Solução….………..…………………………………….06
+2.	Entendimento Inicial..................................................07
+Processos……………………………………….……...08
+Mapeamento e Redesenho…………………...09
+Linguagem BPMN e Bizagi…………….………..10
+POP’s………………………………………………..….…15
+3.	Mapeamento de Processos……………………….………..17
+Árvore de Processos……………………………….18
+Mapeamento…………………………………………..19
+4.	Análises…………………………………..………………….…...…21
+Processos……..……………………………………..…24
+Concorrentes…..…………………….……………...40
+5.	Redesenho e POP’s………………..…………………………..51
+6.	Indicadores……………………………..………………………...95
+7.	Implementação………………………..……..…………………97
+
+Contextualização
+
+Empresa
+4
+4
+A clínica ComportaMente, localizada no Centro Clínico Cléo Octávio no Setor Médico-Hospitalar Norte, é uma clínica especializada em saúde mental. Seu objetivo é promover saúde e qualidade de vida, através de um atendimento humanizado e personalizado, levando sempre em consideração a singularidade de cada paciente, por meio do atendimento com especialistas qualificados, incluindo psicólogos e psiquiatras.
+
+Atualmente, a clínica entrou em contato com a AD&M Consultoria Empresarial relatando dificuldades na padronização de seus processos internos. Sendo assim, foi acordada a solução de gestão de processos, cujo objetivo é analisar e otimizar as atividades e fluxos de trabalho no ambiente corporativo.
+VOLTAR AO MENU
+
+Mercado
+5
+5
+O mercado de saúde mental no Brasil tem apresentado avanços significativos nos últimos anos. De acordo com dados do Ministério da Saúde, o Sistema Único de Saúde (SUS) realizou quase 13,9 milhões de atendimentos psicológicos nos primeiros seis meses de 2024, evidenciando um aumento na busca por suporte psicológico.
+
+No âmbito da psiquiatria, observou-se um crescimento expressivo na demanda por consultas. Segundo o Instituto de Estudos de Saúde Suplementar (IESS), houve um aumento de 44,5% no número de consultas com psiquiatras em um período de cinco anos, passando de 3,4 milhões para 4,9 milhões. Esse dado reflete a crescente valorização da saúde mental e a busca por tratamentos especializados, indicando um mercado em expansão e a necessidade contínua de profissionais qualificados para atender à população.
+
+Em Brasília, o setor de psiquiatria e psicoterapia particular tem se destacado pela qualidade e diversidade de serviços oferecidos. A capital federal conta com uma ampla rede de profissionais especializados, facilitando o acesso da população a tratamentos personalizados. Plataformas como o BoaConsulta listam 790 psiquiatras disponíveis para consultas particulares na região, permitindo que os pacientes escolham profissionais de acordo com suas necessidades e preferências. Essa variedade de opções tem contribuído para a promoção do bem-estar mental dos brasilienses, reforçando a importância de um suporte psicológico acessível e de qualidade.
+VOLTAR AO MENU
+
+Solução
+6
+6
+De acordo com o Sebrae (Serviço Brasileiro de Apoio às Micro e Pequenas Empresas), entidade que promove o desenvolvimento sustentável de micro e pequenas empresas, a gestão de processos consiste na organização eficiente dos fluxos de trabalho dentro de uma empresa ou setor. Esse processo é estruturado em três etapas fundamentais: mapeamento, análise e redesenho de processos.
+
+Um estudo da ABPMP, organização profissional dedicada ao avanço da gestão de processos, revelou os principais motivos que levam as empresas a adotarem essa prática. Segundo a pesquisa, 67% das organizações buscam melhorar a produtividade e a percepção de valor pelos clientes, 58% almejam maior eficiência produtiva e 41% desejam aprimorar a qualidade de seus produtos.
+
+Além disso, a Zendesk, empresa especializada em software de atendimento ao cliente, destaca que a gestão de processos pode ser considerada uma disciplina gerencial voltada à otimização das operações empresariais. Essa abordagem agrega valor tanto internamente, ao melhorar a experiência dos funcionários, quanto externamente, ao aprimorar a entrega de produtos e serviços aos consumidores.
+
+Dessa forma, ao mapear o fluxo de atividades e identificar pontos de melhoria, as empresas conseguem promover um aperfeiçoamento contínuo. Com a implementação da gestão de processos na empresa-cliente, é possível padronizar ações, elevar a qualidade das entregas e garantir maior eficiência operacional.
+VOLTAR AO MENU
+
+Entendimento
+Inicial
+
+Processos
+8
+8
+Segundo a ISO 9000, norma internacional que estabelece requisitos para a gestão da qualidade de produtos e serviços, um processo é um conjunto de atividades inter-relacionadas ou interativas que utilizam entradas para gerar um resultado pretendido. Esse resultado pode ser chamado de saída, produto ou serviço, dependendo do contexto em que é aplicado.
+Nesse sentido, a TOTVS, empresa brasileira de tecnologia especializada em soluções de gestão empresarial, define os processos empresariais como um conjunto de atividades conectadas que têm como principal objetivo entregar valor aos clientes. Dessa forma, eles estabelecem a direção de como o trabalho deve ser realizado e garantem que os procedimentos internos sejam eficientes e alinhados aos objetivos organizacionais.
+Os processos empresariais apresentam características específicas que os diferenciam de outras operações dentro da empresa, tais como: trabalho repetitivo e contínuo, etapas e sequências definidas, foco em alcançar um resultado e transformação de entradas em saídas.
+Além disso, os processos empresariais envolvem diversos elementos, como colaboradores, práticas organizacionais, e equipamentos. Eles também abrangem aspectos estratégicos, incluindo objetivos e recursos disponíveis. Dessa forma, um bom gerenciamento de processos é essencial para garantir a eficiência, a produtividade e a competitividade da empresa no mercado.
+VOLTAR AO MENU
+
+Mapeamento e Redesenho
+9
+9
+O mapeamento de processos, segundo a Eaux Consultoria, consultoria de gestão empresarial com foco em performance. é uma ferramenta gerencial essencial para compreender e aprimorar o funcionamento interno de uma empresa. Esse instrumento permite uma visão detalhada das atividades empresariais, auxiliando na identificação de gargalos, na delimitação clara de funções e responsabilidades e na otimização do fluxo de trabalho. Além disso, contribui diretamente para a melhoria do desempenho organizacional, tornando os processos mais eficientes e alinhados aos objetivos estratégicos da empresa.
+
+Já o redesenho de processos é um recurso voltado para a reestruturação e otimização das operações, garantindo maior agilidade e excelência na execução das atividades. De acordo com a Athon, consultoria de inovação, seu principal objetivo é analisar a estrutura dos processos internos, eliminando desperdícios, reduzindo erros e melhorando a eficiência operacional. Ao revisar e reorganizar as etapas produtivas, o redesenho possibilita ganhos significativos em produtividade e qualidade, tornando a empresa mais competitiva e preparada para responder às demandas do mercado.
+Dessa forma, tanto o mapeamento quanto o redesenho de processos são ferramentas complementares que impulsionam a eficiência organizacional, promovendo uma gestão mais estratégica e orientada para resultados.
+VOLTAR AO MENU
+
+Linguagem BPMN
+e Bizagi
+10
+10
+BPMN - Notação de Modelagem de Processos de Negócios:
+A BPMN é uma linguagem padrão para desenho de processos, desenvolvida para representar visualmente os fluxos de trabalho e as operações de maneira fácil, detalhada e visual. Por meio de ícones e símbolos padronizados, a notação BPMN permite mapear e representar graficamente os processos de negócio, facilitando a identificação de problemas e oportunidades de melhoria.
+
+Bizagi - Software para Modelagem de Processos:
+O Bizagi é um software utilizado para construir fluxogramas e mapear processos empresariais, seguindo a notação padrão BPMN. Com uma interface intuitiva, o Bizagi oferece uma ampla gama de elementos padronizados que simplificam a modelagem e o redesenho de processos.
+Essa ferramenta possibilita às organizações criar e documentar processos de negócios de forma centralizada na nuvem, promovendo a transparência interna, a governança e a eficiência operacional.
+Em resumo, a Notação BPMN e o software Bizagi representam uma abordagem integrada para o gerenciamento e a otimização de processos empresariais e serão utilizados para a realização do mapeamento e redesenho.
+VOLTAR AO MENU
+
+	Segue um guia de referências do Bizagi, da notação BPMN: 
+11
+11
+VOLTAR AO MENU
+
+12
+12
+VOLTAR AO MENU
+
+13
+13
+VOLTAR AO MENU
+
+14
+14
+VOLTAR AO MENU
+
+POP’S
+15
+15
+Segundo a Pontotel, plataforma de gestão e controle, o Procedimento Operacional Padrão, que possui a sigla POP, é um documento que descreve de forma detalhada as etapas necessárias para a execução de um processo dentro de uma organização. Dessa forma, o POP é essencial para otimizar os processos laborais e tornar práticas as ações propostas no redesenho.
+Sabendo disso, foi realizado um POP para cada processo redesenhado, a fim de oferecer uma descrição mais detalhada deles. Segue o modelo de POP utilizado neste documento e uma legenda sobre a linguagem que será adotada.
+Procedimento Operacional Padrão
+Tarefa
+Responsável 
+Objetivo
+Recursos Necessários
+Ações
+VOLTAR AO MENU
+
+16
+16
+A imagem anterior refere-se ao cabeçalho do POP, no qual há informações importantes como:
+Tarefa: Refere-se a qual tarefa será realizada; 
+Responsável: Especifica qual área ou cargo será responsável pela execução;
+Objetivo: Informa qual o objetivo final do processo;
+Recursos necessários: Refere-se aos recursos que serão necessários para a realização do processo; 
+Ações: Indica qual será a sequência de ações do processo.
+
+	Além disso, em sua estrutura, é necessário compreender a linguagem utilizada e o que cada símbolo representa:
+
+	Números: Atividades do processo;
+Tarefas que compõem a atividade;
+Observações sobre a tarefa;
+Decisão (gateway excludente);
+Opção da decisão;
+◙: Este símbolo é utilizado para indicar a troca de responsáveis dentro do processo.
+O fim do processo é indicado pela frase: FIM DO PROCESSO.
+
+	Com esses entendimentos iniciais, é possível prosseguir para a etapa de apresentação do mapeamento de processos realizado na clínica.
+VOLTAR AO MENU
+
+Mapeamento
+
+18
+18
+Antes de iniciar o mapeamento, foi elaborada uma árvore de  processos, que é a organização dos processos da empresa, agrupando e categorizando as principais atividades realizadas. Essa estrutura permite visualizar de forma clara como os processos estão distribuídos, facilitando o processo de mapeamento.
+A organização foi dividida em áreas-chave, como Consultas, Atendimento, Administrativo/Financeiro e Exames e Medicamentos, cada uma contendo processos específicos. Esse agrupamento proporciona um entendimento mais estruturado do fluxo de trabalho.
+
+Árvore de Processos
+VOLTAR AO MENU
+Clique na imagem acima para visualizar a Árvore de Processos feita.
+
+19
+19
+Visando aprofundar a análise de cada processo, e identificar  gargalos, oportunidades de otimização e formas de aumentar a eficiência operacional da empresa foram mapeados 17 processos da empresa cliente, divididos entre 4 áreas, sendo eles:
+
+Consultas
+Consulta da doutora Ana Flávia;
+Consulta da doutora Adriana;
+Contato pós-consulta;
+Planos de acompanhamento.
+	Atendimento
+Atendimento de novos pacientes;
+Atendimento de ligações;
+Recepção pré-consulta;
+Recepção pós-consulta;
+Política de atraso ou falta;
+Política de cancelamento;
+Recebimento de reclamações.
+	Administrativo/Financeiro
+Check-list da clínica;
+Reposição de insumos da clínica;
+Pagamento de consultas da clínica;
+Pagamento das doutoras.
+Exames e Medicamentos
+Marcação de exames de polissonografia;
+Recebimento de medicamentos.
+Mapeamento
+VOLTAR AO MENU
+
+20
+20
+Com essa visão consolidada, o próximo passo foi mapear e aprofundar a análise de cada processo, identificando gargalos, oportunidades de otimização e formas de aumentar a eficiência operacional da empresa.
+
+Cada um dos 17 processos foram mapeados na plataforma Bizagi, explicada anteriormente. Os mapeamentos podem ser encontrados em uma pasta do Google Drive, serviço de armazenamento do Google que permite criar, editar, organizar e compartilhar arquivos.
+
+Clique no símbolo abaixo para acessar a pasta:
+
+
+
+
+
+
+VOLTAR AO MENU
+
+Análises
+
+22
+22
+Após a fase inicial de levantamento e documentação dos processos existentes, a análise se concentra em examiná-los para identificar ineficiências, gargalos e oportunidades de melhoria e otimização.
+
+Os principais objetivos desta análise incluem:
+
+Identificação de Ineficiências: Avaliar os processos atuais para detectar atividades que não agregam valor, redundâncias e tarefas desnecessárias.
+Otimização de Recursos: Utilizar melhor os recursos humanos, financeiros e tecnológicos para melhorar a eficiência operacional.
+Melhoria da Qualidade: Alinhar os processos aos padrões de qualidade esperados, eliminando erros e retrabalhos.
+Aumento da Produtividade: Reduzir o tempo de execução das tarefas e aumentar a produtividade dos colaboradores.
+Satisfação do Cliente: Melhorar a experiência do cliente, atendendo às suas necessidades e expectativas.
+
+VOLTAR AO MENU
+Objetivos
+
+23
+23
+O processo de análise dos processos mapeados inclui as etapas:
+
+Coleta de Dados: Recolher informações detalhadas sobre os processos na etapa de mapeamento.
+Avaliação Crítica: Analisar cada etapa dos processos para identificar problemas e oportunidades.
+Identificação de Gargalos: Detectar pontos críticos onde ocorrem atrasos, erros frequentes ou uso ineficiente de recursos.
+Benchmarking: Comparar os processos com as melhores práticas do mercado ou com processos de organizações similares.
+Proposta de Melhoria: Desenvolver sugestões de melhorias com base na análise realizada, que podem incluir redesenho de processos, automação de tarefas e treinamento de colaboradores.
+
+Assim, as análises serão conduzidas e segmentadas de acordo com as áreas mapeadas: consulta, atendimento, administrativo-financeiro e exames e medicamentos. O foco será destacar as principais tendências e insights relevantes, sempre com o objetivo de oferecer uma visão estruturada e estratégica.
+
+VOLTAR AO MENU
+Etapas
+
+24
+24
+CONSULTAS DE PSICOTERAPIAS
+	
+Durante o mapeamento do processo, observou-se que as responsáveis pelas consultas de psicoterapia adotam abordagens diferentes. O principal gargalo identificado foi a necessidade de confirmar semanalmente se a secretária entrou em contato com os pacientes, o que introduz uma verificação manual no fluxo. Esse processo pode consumir tempo desnecessário, gerar atrasos e aumentar o risco de falhas na comunicação caso algum paciente não tenha sido devidamente contatado.
+
+
+
+
+
+
+Para solucionar esse problema, uma alternativa eficiente seria automatizar esse acompanhamento por meio de um sistema de notificações por mensagem. Dessa forma, os pacientes receberiam lembretes de confirmação automáticos e a secretária ficaria responsável somente por atualizar o status da consulta no Doctoralia. Isso tornaria o processo mais confiável para as Doutoras, eliminando a necessidade de conferências manuais semanais e tornando o processo mais ágil. 
+VOLTAR AO MENU
+Consulta
+
+25
+25
+Ainda, um processo que pode ser padronizado na clínica é a assinatura da ficha pelo paciente após cada sessão. Essa prática pode aumentar a percepção de progresso do paciente, permitindo que ele tenha uma noção mais clara de quantas sessões já realizou e de que seu pacote está chegando ao fim, incentivando-o a considerar a renovação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Além disso, na consulta de psiquiatria, verificou-se que a secretária atualmente é responsável por coletar as assinaturas de um dos Doutores. No entanto, o ideal seria que essa tarefa fosse realizada pelo próprio doutor, pois isso pode aumentar a taxa de renovação dos pacotes. Ao final da sessão, o profissional pode reforçar a importância da continuidade do tratamento, esclarecer dúvidas sobre a evolução do paciente e criar um momento de engajamento mais próximo. Esse contato direto fortalece o vínculo com o paciente, aumenta a confiança no acompanhamento e pode reduzir desistências, garantindo um fluxo mais previsível de atendimentos na clínica.
+VOLTAR AO MENU
+
+26
+26
+PLANOS DE ACOMPANHAMENTO
+
+	Atualmente, a oferta de pacotes na clínica ocorre de forma reativa, ou seja, apenas quando o paciente reclama do preço ou já frequenta o espaço com regularidade. Esse modelo apresenta algumas limitações, pois deixa de abordar muitos pacientes que poderiam se interessar pelo pacote, além de depender da iniciativa do próprio paciente para manifestar uma necessidade. Isso reduz as oportunidades de conversão e pode resultar na perda de potenciais vendas. Além disso, a falta de um processo padronizado pode gerar inconsistências na abordagem, tornando a oferta menos eficaz.
+
+
+
+
+
+
+
+
+
+
+
+Uma abordagem mais eficiente seria adotar uma estratégia proativa, oferecendo os pacotes a todos os pacientes ao final do atendimento presencial. Com essa mudança, mais pessoas terão conhecimento sobre a opção de pacotes, o que aumenta as chances de adesão. 
+VOLTAR AO MENU
+
+27
+27
+Além disso, a padronização da abordagem garante que todos os pacientes recebam a mesma informação e fortalece o compromisso com o tratamento. Caso o paciente não aceite de imediato, ele pode ser incluído em um acompanhamento estratégico, possibilitando novos contatos ao longo do tratamento para reforçar os benefícios da adesão ao pacote. Essa abordagem proporciona uma experiência mais estruturada e vantajosa para os pacientes e para a clínica.
+
+CONTATO PÓS-CONSULTA
+
+	O mapeamento do processo de contato pós-consulta está bem estruturado, mas pode ser aprimorado para aumentar a eficiência e a qualidade do acompanhamento dos pacientes. Um dos principais desafios é a falta de controle sobre o preenchimento do formulário de avaliação. Atualmente, ele é enviado no mesmo dia da consulta, porém não há um acompanhamento para garantir que o paciente realmente o responda.
+
+Uma solução para esse problema seria enviar o link da avaliação da consulta e, na consulta de seguimento, a secretária verificar se o e-mail do paciente consta no registro de respostas. Caso não esteja, o ideal é solicitar a avaliação assim que o paciente sair da consulta presencial, garantindo uma taxa de resposta mais alta. Além disso, se o paciente avaliar a consulta com nota 10, ele pode ser direcionado a avaliar a clínica na plataforma Doctoralia, aumentando a visibilidade e credibilidade do serviço.
+
+VOLTAR AO MENU
+
+28
+28
+ATENDIMENTO DE NOVOS PACIENTES
+
+	Um ponto de melhoria nesta etapa seria a coleta de informações. Atualmente, os dados são coletados antes da verificação de disponibilidade na agenda, o que pode gerar retrabalho caso o paciente não encontre um horário adequado. Uma solução seria consultar a agenda antes de solicitar todas as informações do paciente, garantindo que o esforço de coleta de dados seja direcionado apenas a quem realmente pode agendar.
+
+
+
+
+
+
+
+
+	
+Além disso, o processo de pagamento poderia ser otimizado ao integrar um link de pagamento já na etapa de pré agendamento da consulta, reduzindo o tempo necessário para a cobrança manual e minimizando o risco de cancelamentos por falta de pagamento antecipado.
+Essas mudanças tornariam o atendimento mais rápido, reduziriam a carga operacional da equipe e aumentariam a taxa de conversão de novos pacientes, garantindo uma experiência mais fluida e eficiente.
+VOLTAR AO MENU
+Atendimento
+
+29
+29
+ATENDIMENTO DE LIGAÇÕES
+
+	O mapeamento do processo de atendimento de ligações pode ser otimizado para aumentar a conversão de pacientes. Um dos principais problemas é a falta de um roteiro claro de argumentação para incentivar a marcação de consultas. Atualmente, quando um paciente liga para tirar dúvidas, não há uma tentativa explícita dentro do mapeamento de convertê-lo em um cliente, apenas a resposta às suas questões. Para melhorar esse ponto, seria interessante a criação de um briefing para as secretarias seguirem dos pontos que devem serem falados para os pacientes sobre o serviço. Dessa forma, a etapa de atendimento se torna mais padronizada e com mais chances de converter a compra.
+VOLTAR AO MENU
+
+30
+30
+RECEPÇÃO PRÉ-CONSULTA
+
+	Na etapa de recepção pré-consulta, a principal questão identificada é a falta de padronização entre as duas salas da clínica no atual prédio. De acordo com o Relatório de Tendências de Experiência do Paciente da NRC Health, 60% dos pacientes consideram o atendimento e o ambiente da clínica fatores essenciais para recomendar o serviço. Nesse contexto, a recepção da sala de psiquiatria oferece mais opções de degustação na sala de espera do que a da psicoterapia, o que cria uma diferença perceptível. Esse contraste impacta especialmente os pacientes mais antigos, que já vivenciaram ambas as recepções e notam a discrepância.
+
+Além disso, é essencial que todos os serviços da clínica sigam um padrão único, independentemente do valor do serviço contratado. Como todos os atendimentos estão sob o nome da marca da clínica, essa variação na experiência pode influenciar diretamente a percepção dos pacientes e, consequentemente, as avaliações no Forms e no Doctoralia.
+VOLTAR AO MENU
+
+31
+31
+POLÍTICA DE ATRASO OU FALTA
+
+	A política de atraso e falta não apresenta problemas dentro do mapeamento. No entanto, um ponto levantado pelos doutores da clínica é que muitos pacientes não recebiam um aviso prévio sobre essa regra interna. Como resultado, a aplicação da política acabava sendo flexível, dependendo da situação do paciente.
+
+Para garantir que todos estejam cientes da regra e de suas consequências, uma solução eficaz seria formalizar essa comunicação já na primeira consulta. Isso poderia ser feito por meio da assinatura de um documento que explicite as normas da clínica, assegurando que o paciente esteja devidamente informado antes da aplicação de qualquer medida.
+VOLTAR AO MENU
+
+32
+32
+POLÍTICA DE CANCELAMENTO
+
+	Na etapa de cancelamento, uma melhoria que poderia facilitar o trabalho de novos funcionários é um maior detalhamento das fases de "avisar que não haverá reembolso" e "iniciar o processo de reembolso". Atualmente, essas etapas não especificam qual mensagem deve ser comunicada ao paciente, tornando o processo mais manual. Como consequência, os funcionários precisam entrar em contato com o responsável pela clínica para esclarecer o contexto antes de seguir com o procedimento.
+
+
+
+
+
+
+
+
+
+
+
+Uma sugestão de melhoria para a etapa de início do reembolso, conforme identificado na fase de entrevistas, seria estabelecer um prazo máximo para a devolução do valor ao paciente. Além disso, no caso de não reembolso, poderiam ser definidas diretrizes claras sobre as situações em que a clínica não aceita pedidos de reembolso. Essas regras poderiam ser incluídas no documento que o paciente assina na primeira consulta, referente à política de atrasos e faltas, garantindo que ele esteja ciente das condições desde o início.
+VOLTAR AO MENU
+
+33
+33
+RECEBIMENTO DE RECLAMAÇÕES
+
+	O processo de Recebimento de Reclamações pode ser aprimorado, ao receber uma reclamação, o ideal é registrá-la em uma planilha, de forma que, ao final do semestre ou do ano, a equipe possa ter uma visão geral de todos os feedbacks. Isso permitirá uma análise dos principais problemas e das oportunidades de melhoria, tornando o processo mais estruturado e eficaz, o que, por sua vez, fortalecerá a qualidade do atendimento na clínica.
+
+Além disso, a secretaria deve comunicar verbalmente ao gestor da clínica sobre cada nova reclamação recebida, pois ele considera essa etapa uma oportunidade de melhoria. Também é essencial estabelecer um prazo máximo para que a equipe entre em contato com o paciente, garantindo que ele receba um retorno dentro de um período definido.
+VOLTAR AO MENU
+
+34
+34
+CHECK-LIST DA CLÍNICA E PAGAMENTO DE CONSULTAS DA CLÍNICA
+
+	Nessas etapas que estão interligadas, o maior problema está nas fases que exigem um controle manual por parte da secretaria. A fase de “atualizar a planilha de leads” se torna ineficiente porque a secretaria precisa registrar manualmente todos esses dados, o que pode gerar erros devido à falta de atualização diária. Como a atualização é acumulada, o alto volume de informações pode resultar em falhas ao realizar a inserção dos dados. Já a “registrar o pagamento manualmente nos sistemas” não é realizada de maneira adequada, pois a secretaria não possui um passo a passo claro de preenchimento dentro das plataformas. A falta de conhecimento sobre o processo faz com que o preenchimento não seja feito corretamente.
+VOLTAR AO MENU
+Administrativo-Financeiro
+
+35
+35
+PAGAMENTO DAS DOUTORAS
+	Assim como foi coletada a percepção do gestor da clínica, o maior problema dessa etapa está no procedimento de ter que verificar mensalmente com as doutoras todas as consultas realizadas e registradas. Visando otimizar o processo de pagamento das doutoras, pode ser mais eficiente a clínica assumir a responsabilidade de entregar as informações sobre as consultas, evitando que as doutoras precisem vir até a equipe para comparar os dados. Dessa forma, seria interessante a clínica passar a criar e entregar um relatório no final do mês, assegurando o pagamento adequado das doutoras.
+VOLTAR AO MENU
+
+36
+36
+REPOSIÇÃO DE INSUMOS DA CLÍNICA
+
+	A mudança proposta no mapeamento do processo de reposição de insumos da clínica envolve a criação de uma planilha contendo os fornecedores dos principais insumos. Com essa abordagem, a secretaria não precisará verificar o estoque manualmente e anotar os itens em falta toda vez que precisar fazer um pedido. Em vez disso, bastará consultar a planilha e entrar em contato diretamente com os fornecedores, tornando o processo mais ágil e organizado.
+
+
+
+
+
+
+
+
+
+
+Os benefícios dessa mudança incluem:
+Redução de tempo e esforço: A secretaria não precisará listar os itens em falta a cada reposição, pois os fornecedores já estarão cadastrados na planilha, facilitando o pedido.
+Padronização do processo: Com os contatos e fornecedores definidos previamente, evita-se variações na compra, garantindo qualidade e previsibilidade nos insumos adquiridos.
+VOLTAR AO MENU
+
+37
+37
+Otimização da gestão financeira: Ao manter um histórico dos fornecedores e valores na planilha, a clínica pode buscar melhores negociações e evitar compras emergenciais, que costumam ser mais caras.
+Redução de erros e atrasos: A dependência de processos manuais e trocas de mensagens é reduzida, evitando esquecimentos e atrasos na reposição dos materiais.
+Facilidade na auditoria e controle: A planilha permite um acompanhamento mais eficiente do consumo dos insumos, ajudando na previsão de demanda e no controle de custos.
+VOLTAR AO MENU
+
+38
+38
+MARCAÇÃO DE EXAMES DE POLISSONOGRAFIA
+
+	O maior problema dessa etapa de marcação de exames é que a clínica não possui uma política de vendas clara para o produto, o que faz com que ele não tenha seu potencial de venda e lucro totalmente explorado pela equipe. Muitas vezes, o serviço acaba sendo visto apenas como um benefício oferecido ao paciente durante a consulta de psiquiatria. Para melhorar esse processo, uma sugestão seria criar um briefing que os doutores possam utilizar, permitindo que eles compreendam os benefícios e malefícios do serviço de polissonografia tipo IV, para que possam comunicar de forma adequada ao paciente. Essa ideia foi coletada pela própria equipe, o que demonstra que o oferecimento desse serviço se encaixa bem na etapa dentro das consultas de psicoterapia também.
+VOLTAR AO MENU
+Exames e Medicamentos
+
+39
+39
+RECEBIMENTO DE MEDICAMENTOS
+	Assim como foi coletada a percepção do gestor, na etapa de realizar reuniões com representantes de medicamentos, seria ideal definir um dia fixo na agenda para essas reuniões. A sugestão é mapear um dia a cada 15 dias em que as reuniões possam ser feitas. Quando a secretaria for verificar a política de marcação, basta verificar se há disponibilidade no dia predeterminado mais próximo. Caso haja horário disponível, o agendamento é feito; caso contrário, será marcado para a data seguinte mais próxima. Dessa forma, o responsável pela realização dessas reuniões na clínica não precisará ser abordado toda vez que um representante comercial chegar pedindo uma reunião.
+VOLTAR AO MENU
+
+40
+40
+A análise de concorrentes é o processo de investigar e compreender as práticas, estratégias e desempenhos das empresas que atuam no mesmo mercado ou setor. O objetivo dessa análise foi identificar os pontos fortes e fracos dos concorrentes no atendimento ao cliente, para se destacar e se posicionar de forma mais competitiva no mercado.
+
+No contexto da clínica ComportaMente, o principal objetivo da equipe ao realizar uma análise de concorrentes foi compreender como outras clínicas conduzem o atendimento inicial de novos pacientes via WhatsApp e realizar uma pesquisa online da Missão, Visão e Valores (M.V.V) dessas empresas.
+
+VOLTAR AO MENU
+Concorrentes
+
+41
+41
+Segundo o Sebrae, a Missão, Visão e Valores (M.V.V) é fundamental para definir a direção estratégica de uma empresa, alinhando operações e motivando a equipe. Esse conjunto de princípios fortalece a identidade organizacional e orienta decisões, garantindo um posicionamento claro no mercado. Além disso, o M.V.V impulsiona a melhoria contínua, tornando a empresa mais competitiva e preparada para enfrentar desafios.
+MISSÃO
+A missão é o motivo pelo qual a empresa existe, a razão de suas ações e o que guiará seu posicionamento. Ela deve definir como o serviço acontecerá ao longo do dia de trabalho.
+VISÃO
+	A visão representa os objetivos a longo prazo da empresa, onde ela deseja estar no futuro. Ela determina que decisões serão tomadas, quais investimentos serão feitos e quais estratégias serão executadas.
+VALORES
+	Os valores são os princípios que regem a atuação da empresa. São os guias para todos que trabalham no negócio, pois se traduzem em princípios valorizados pela organização que devem ser ilustrados em todas as ações e práticas. Eles definem o código de conduta que a empresa seguirá em sua caminhada.
+VOLTAR AO MENU
+Missão, Visão e Valores
+
+42
+42
+A clínica SIM é multidisciplinar, oferecendo serviços como psiquiatria, psicologia e medicina do sono, concorrentes da empresa cliente. O atendimento via WhatsApp inicia com uma mensagem automática, garantindo agilidade. Ao escolher a especialidade, o paciente recebe um contato para agendamento, também automatizado. A consulta de psiquiatria dura 45 minutos e custa R$ 800,00.
+VOLTAR AO MENU
+Clínica SIM
+
+43
+43
+VOLTAR AO MENU
+Clínica SIM
+M.V.V.
+MISSÃO
+Proporcionar atendimento de saúde centrado no paciente, promovendo bem-estar e qualidade de vida de forma ética, interdisciplinar, humanizada e personalizada.
+VISÃO
+Ser reconhecida como uma clínica líder em saúde interdisciplinar, acolhedora, referência em excelência no atendimento. Almejamos ser a primeira escolha para os pacientes que buscam um cuidado integral baseado em princípios científicos e éticos.
+VALORES
+Cuidado Humanizado: Tratamos cada paciente com empatia, respeito e atenção personalizada, reconhecendo suas necessidades únicas.
+Excelência: Comprometemo-nos com a mais alta qualidade em todos os aspectos do nosso serviço.
+Inovação: Buscamos continuamente novas práticas e tecnologias que aprimorem o cuidado e a experiência do paciente.
+Ética e Ciência: Agimos com integridade e honestidade pautados pelas evidências científicas
+Trabalho em Equipe: Valorizamos a colaboração e a diversidade de nossos profissionais e acreditamos que a visão multidisciplinar do paciente contribui para a precisão do diagnóstico e enriquece o tratamento.
+
+44
+44
+A Clínica de Psiquiatria Psiquimed é especializada no atendimento de diversos transtornos psiquiátricos, entre os tratamentos disponibilizados, destacam-se aqueles voltados para ansiedade, depressão, anorexia nervosa, síndrome do pânico, fobia social, compulsão alimentar, esquizofrenia, TDAH, bulimia, paranoia e transtorno bipolar. Ainda, eles implementaram um sistema automatizado em seu WhatsApp, facilitando o processo de agendamento e comunicação com os pacientes.
+VOLTAR AO MENU
+Clínica Psiquimed
+
+45
+45
+VOLTAR AO MENU
+Clínica Psiquimed
+M.V.V.
+MISSÃO
+Oferecer atendimento psiquiátrico com ética, alta qualidade, conforto e segurança, num ambiente motivador para os pacientes e seus familiares, buscando constantemente a atualização científica e tecnológica na psiquiatria. Buscar soluções para todas as doenças psiquiátricas, realizando um atendimento humanizado e seguro, por meio da prevenção e ações curativas, instituindo métodos diagnósticos e tratamentos confiáveis e que tenham respaldo científico.
+VISÃO
+Ser uma clínica de excelência, reconhecida por seu atendimento humanizado e se tornar referência em todo Distrito Federal na área de Psiquiatria.
+VALORES
+Profissionalismo;
+Empatia;
+Sinceridade;
+Humanização;
+Atendimento Cordial;
+Respeito e ética com os pacientes e todos os profissionais da saúde;
+Cuidado Integral;
+
+46
+46
+Embora a clínica Vivacitá não apresente um M.V.V. em seu site, foi avaliada pelo atendimento inicial via WhatsApp, que atendeu às expectativas buscadas. O contato é automatizado e começa solicitando o envio de informações prévias antes da interação com um atendente, o que agiliza o processo, melhora a organização dos atendimentos e proporciona uma experiência mais eficiente e personalizada para o paciente.
+VOLTAR AO MENU
+Clínica Vivacitá
+
+47
+47
+ANÁLISE GERAL
+
+	Analisamos um total de 10 concorrentes, sendo apresentados neste trabalho aqueles que mais contribuíram para uma análise satisfatória nos critérios de atendimento automatizado e M.V.V. explícito no site.
+
+De modo geral, o atendimento automatizado mostrou-se eficiente, proporcionando aos pacientes uma sensação de agilidade e conforto ao serem rapidamente pré-atendidos. O atendimento da clínica Fleury se destacou pelo envio direto do link de marcação de consulta no Doctoralia, facilitando o agendamento.
+VOLTAR AO MENU
+
+48
+48
+ANÁLISE GERAL
+
+	No entanto, entre os casos menos satisfatórios, foram observados problemas como confusão visual no texto e falta de personalização na comunicação.
+VOLTAR AO MENU
+
+49
+49
+PROPOSTA DE M.V.V.
+
+Por meio das reuniões com o proprietário da ComportaMente e das pesquisas em outros estabelecimentos de saúde, foram obtidos insights para a criação do M.V.V. da empresa cliente. Essas informações, aliadas às opções apresentadas a seguir, proporcionarão ao proprietário uma base sólida para adaptar a identidade da empresa ao seu perfil e necessidades.
+VOLTAR AO MENU
+MISSÃO
+Opção 1:
+Promover saúde mental com excelência, acolhimento e personalização, proporcionando bem-estar e qualidade de vida a cada paciente.
+Opção 2:
+Oferecer atendimento psiquiátrico e psicológico de alta qualidade, integrando humanização e inovação para um cuidado completo e eficaz.
+Opção 3:
+Transformar vidas por meio do cuidado em saúde mental, garantindo suporte especializado e um atendimento atencioso e acessível.
+
+50
+50
+VOLTAR AO MENU
+VISÃO
+Opção 1:
+Ser referência em saúde mental, reconhecida pela qualidade dos atendimentos, inovação nos processos e impacto positivo na vida dos pacientes.
+Opção 2:
+Expandir nosso atendimento e consolidar nossa clínica como um centro de excelência e inovação em saúde mental no Distrito Federal.
+Opção 3:
+Criar um ambiente de cuidado em que pacientes e profissionais encontrem segurança, eficiência e inovação na busca pelo bem-estar.
+VALORES
+Opção 1:
+Humanização; Excelência profissional; Ética e transparência; Inovação e tecnologia; Compromisso com resultados.
+Opção 2:
+Respeito à singularidade do paciente; Atendimento de qualidade; Desenvolvimento contínuo da equipe; Organização e eficiência; Engajamento.
+Opção 3:
+Acolhimento e empatia; Profissionalismo e comprometimento; Melhoria contínua; Comunicação clara e objetiva; Trabalho colaborativo
+
+Redesenho
+
+52
+52
+Como citado anteriormente, na etapa de redesenho, reavaliam-se e reestruturam-se os processos para melhorar significativamente os indicadores de desempenho. A metodologia proposta busca soluções para os problemas e melhorias identificados no mapeamento dos processos.
+
+Abaixo estão os processos que foram redesenhados na clínica:
+
+Consultas
+Consulta de psicoterapia;
+Consulta de psiquiatria;
+Contato pós-consulta de psiquiatria;
+Contato pós-consulta de psicoterapia.
+	Atendimento
+Atendimento de novos pacientes;
+Check-list da clínica;
+Atendimento de ligações;
+Recepção pré-consulta;
+Recepção pós-consulta;
+Política de cancelamento;
+Recebimento de reclamações.
+	Administrativo/Financeiro
+Reposição de insumos da clínica;
+Pagamento de consultas da clínica.
+Exames e Representantes Comerciais
+Marcação de exames de polissonografia;
+Reunião com representantes comerciais.
+VOLTAR AO MENU
+
+53
+53
+CONSULTAS DE PSICOTERAPIAS
+	
+O redesenho do processo melhora a organização e o controle das sessões de psicoterapia. A assinatura do paciente na ficha garante rastreabilidade do serviço que está sendo feito e segurança para o paciente do serviço que está sendo prestado, evitando questionamentos. Já a possibilidade das Doutoras entrarem em contato com os pacientes em caso de falta para as doutoras humaniza o processo, permitindo uma avaliação clínica antes da decisão de remarcar ou cobrar a sessão.
+Os ganhos esperados incluem maior transparência, melhor relação com os pacientes e redução de conflitos sobre faltas. No entanto, há riscos, como resistência à assinatura e sobrecarga das doutoras. Para mitigar, a mudança deve ser bem comunicada, e as Doutoras podem ter acesso a uma mensagem padrão para ser enviada nesses casos, garantindo eficiência sem comprometer a rotina clínica.
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+Consulta
+
+54
+54
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Consulta de Psicoterapia
+Responsável 
+Doutoras
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Whatsapp
+Ações
+1.0  Verificar a agenda
+2.0 Ler o prontuário do paciente no Doctoralia
+O paciente compareceu na sessão?
+SIM
+3.0 Atender o paciente
+Informar aos pacientes sobre as atividades semanais.
+Em caso de dúvida, o paciente pode mandar mensagem no whatsapp privado;
+Caso seja primeira consulta, informar sobre o funcionamento da clínica, horários e a duração da sessão (50 minutos ou 1 hora).
+4.0 Pedir para o paciente assinar a ficha
+5.0 Preencher a ficha e prontuário do paciente
+O paciente compareceu na sessão?
+NÃO
+
+55
+55
+VOLTAR AO MENU
+6.0 Verificar com a Secretária se o paciente entrou em contato
+Caso o paciente não tenha respondido ao contato da secretária, enviar uma mensagem perguntando o motivo da ausência na sessão agendada.
+7.0 Avisar a secretária
+Informar se a sessão será remarcada ou cobrada a política de falta.
+FIM DO PROCESSO
+
+
+56
+56
+CONSULTAS DE PSIQUIATRIA
+
+	A nova etapa no processo de cobrança da política de falta, que inclui o envio do documento assinado pelo paciente contendo as regras da clínica, fortalece a transparência e a segurança jurídica. Essa mudança garante que o paciente tenha ciência do compromisso firmado, reduzindo questionamentos e tornando o processo mais formalizado. Além disso, reforça a credibilidade da clínica ao demonstrar profissionalismo e padronização nas suas práticas.
+Os principais ganhos esperados são a diminuição de conflitos e contestações, maior adesão às regras da clínica e uma comunicação mais clara com os pacientes. Com o registro formal da concordância do paciente, o risco de impasses na cobrança se reduz, otimizando a gestão administrativa e financeira.
+O maior risco é a possível percepção negativa por parte dos pacientes. Para mitigar, é essencial uma abordagem clara e empática na comunicação; Essa mudança fortalece a credibilidade da clínica.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+57
+57
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Consulta de Psiquiatria
+Responsável 
+Doutoras
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Whatsapp
+Ações
+1.0  Verificar a agenda
+2.0 Ler o prontuário do paciente no Doctoralia
+O paciente compareceu na consulta?
+SIM
+3.0 Atender o paciente
+4.0 Preencher a ficha e prontuário do paciente
+O paciente compareceu na consulta?
+NÃO
+5.0 Entrar em contato com o paciente
+Antes de cobrar, enviar ao paciente o documento assinado com as políticas da clínica.
+FIM DO PROCESSO
+
+58
+58
+CONTATO PÓS-CONSULTA DE PSICOTERAPIA
+
+	A nova etapa adicionada ao processo de contato pós-consulta, que envolve o envio de uma mensagem com instruções para marcação da próxima consulta quando o paciente ainda não agendou, melhora a taxa de retenção e continuidade do tratamento. Ao incluir o link do Doctoralia, a clínica facilita o agendamento, tornando o processo mais acessível e reduzindo a necessidade de interação direta com a recepção.
+Os principais ganhos esperados são o aumento na taxa de retorno dos pacientes, maior praticidade no agendamento e otimização do tempo da equipe administrativa. Além disso, a automatização desse contato reforça o compromisso da clínica com a experiência do paciente.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+59
+59
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Contato pós-consulta de psicoterapia
+Responsável 
+Secretária
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Planilha de seguimento;
+Whatsapp Business;
+Ações
+1.0  Localizar o WhatsApp do paciente
+O paciente teve a primeira consulta?
+SIM
+2.0 Procurar a mensagem padrão de NPS da clínica
+3.0 Enviar o link de formulário de avaliação da consulta
+O paciente teve a primeira consulta?
+NÃO
+4.0 Enviar mensagem com instruções para marcação da próxima consulta
+Caso o paciente não tenha agendado e ao enviar incluir o link de marcação de consulta do Doctoralia.
+5.0 Verificar o Doctoralia
+7 dias após a consulta.
+O paciente marcou a próxima consulta?
+NÃO
+
+
+60
+60
+VOLTAR AO MENU
+6.0 Enviar mensagem padrão oferecendo os pacotes da clínica
+O paciente marcou a próxima consulta?
+SIM
+FIM DO PROCESSO
+
+
+61
+61
+CONTATO PÓS-CONSULTA DE PSIQUIATRIA
+
+	A nova etapa de envio da mensagem de agradecimento e reforço da continuidade do tratamento fortalece o vínculo com o paciente e melhora a adesão ao acompanhamento. Os ganhos incluem maior taxa de retorno, engajamento no tratamento e confiança na clínica.
+Os riscos são a possível falta de resposta ou percepção de impessoalidade. Para mitigar, a mensagem deve ser humanizada e objetiva, reforçando o cuidado sem parecer automatizada. Além disso, o acompanhamento pode ser aprimorado com a possibilidade de interação direta, caso o paciente tenha dúvidas ou preocupações.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+62
+62
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Contato pós-consulta de psiquiatria
+Responsável 
+Secretária
+Objetivo
+Garantir a continuidade do tratamento, estimulando o agendamento de retornos e coletando feedback para melhorar os serviços e fortalecer o relacionamento com o paciente.
+Recursos Necessários
+Planilha de seguimento;
+Whatsapp Business;
+Ações
+1.0  Localizar o WhatsApp do paciente
+O paciente teve a primeira consulta?
+SIM
+2.0 Procurar a mensagem padrão de NPS da clínica
+3.0 Enviar o link de formulário de avaliação da consulta
+O paciente teve a primeira consulta?
+NÃO
+4.0 Enviar mensagem padrão de 15 dias
+O paciente respondeu que está se sentindo bem?
+SIM
+4.1 Enviar mensagem de agradecimento pela resposta e lembrete para continuar o tratamento
+O paciente respondeu que está se sentindo bem?
+NÃO
+
+
+63
+63
+VOLTAR AO MENU
+4.2  Pedir para entrar em contato com o Doutor
+5.0 Verificar o Doctoralia
+45 dias após a consulta.
+6.0 Enviar mensagem padrão de 60 dias
+Caso o paciente não tenha agendado consulta de seguimento e ao enviar incluir o link de marcação de consulta do Doctoralia.
+FIM DO PROCESSO
+
+
+64
+64
+ATENDIMENTO DE NOVOS PACIENTES
+	
+O redesenho da etapa de captação de novos pacientes da clínica teve como principal objetivo padronizar as informações fornecidas por todos os profissionais da ComportaMente. Dessa forma, quando um paciente entrar em contato buscando o serviço de psicoterapia, ele receberá um resumo sobre a atuação do profissional correspondente, junto com o link do seu perfil no Doctoralia.
+Além disso, a ordem das etapas de verificação de disponibilidade no sistema e de coleta de informações para o agendamento foi invertida, otimizando o fluxo de informações e o processo operacional da secretaria.
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+Atendimento
+
+65
+65
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Atendimento de novos pacientes
+Responsável 
+Secretária
+Objetivo
+Garantir um atendimento eficiente, proporcionando uma experiência de qualidade para os potenciais pacientes.
+Recursos Necessários
+Computador e celular
+WhatsApp Business
+Planilha de agendamento
+Sistema financeiro
+Ações
+1.0 Receber o contato do lead por mensagem.
+2.0 Oferecer ligação.
+Perguntar se o paciente tem 3 minutos para realizar uma ligação com a funcionária, a fim de explicar melhor sobre a consulta do doutor Marco Túlio pelo telefone.
+O paciente pode atender?
+SIM
+2.1 Ligar para o paciente.
+O paciente pode atender?
+NÃO
+2.1 Enviar a mensagem padrão de apresentação para o paciente
+
+
+
+66
+66
+VOLTAR AO MENU
+3.0 Cumprimentar o paciente.
+Exemplo: “Oi, Sr. [nome do paciente], aqui é a [nome da secretária], secretária do Dr. Marco Túlio, obrigado por reservar alguns minutos para eu poder explicar melhor sobre a consulta.”
+Manter a educação e cordialidade com o paciente durante todo o processo.
+4.0 Perguntar qual o motivo da procura.
+5.0 Informar o paciente sobre o doutor e seu estilo de consulta.
+Exemplo: “O Dr. Marco Túlio é um médico experiente com mais de 8 anos de atuação, tem especializações nas universidades mais renomadas do Brasil (USP e UNIFESP), foi professor universitário de 2023 até 2024 e atualmente dedica o seu tempo de trabalho exclusivamente para o consultório. O Dr. Marco Túlio prioriza um atendimento humanizado, tem um olhar mais abrangente, tenta entender toda a sua história de vida, para pensar nas possíveis causas do que pode estar acontecendo e planejar um plano terapêutico adequado com a sua história. A primeira consulta tem 2 horas de duração e a consulta de seguimento 1 hora. O Dr. Marco Túlio disponibiliza o seu número pessoal para esclarecimentos de dúvidas e acompanhamento da evolução até a próxima consulta”
+6.0 Perguntar se a consulta seria para ele ou terceiros.
+7.0 Perguntar se o paciente tem preferência por consulta on-line ou presencial.
+8.0 Verificar dias e horários disponíveis no Doctoralia.
+9.0 Oferecer duas opções de agendamento.
+Informar duas opções de horário, uma pela manhã e outra pela tarde, na data mais próxima disponível.
+
+67
+67
+VOLTAR AO MENU
+10.0 Coletar as informações necessárias para agendamento.
+Nome completo, data de nascimento, e-mail e telefone de algum familiar.
+11.0 Marcar a consulta no sistema.
+Atualizar planilha de controle e Doctoralia.
+12.0 Cobrar pagamento.
+Informar o valor das consultas.
+13.0 Perguntar o método de pagamento.
+Em caso de primeira consulta, o valor deve ser pago de forma antecipada, até 24 horas antes da consulta.
+Caso o cliente opte pelo pagamento no cartão, cobra-se a taxa da máquina do cartão.
+14.0 Solicitar comprovante de pagamento.
+15.0 Encerrar atendimento.
+
+FIM DO PROCESSO.
+
+68
+68
+CHECK-LIST DA CLÍNICA
+
+	Na etapa de redesenho, a adoção da Conta Azul na clínica resolveu o problema do acúmulo de informações financeiras. Com a conciliação diária e a automação de processos, os pagamentos são acompanhados com mais eficiência, evitando atrasos e falhas no controle de recebimentos.
+
+	Ela é uma boa escolha para gestão financeira porque oferece uma série de funcionalidades que automatizam e facilitam o controle financeiro de pequenas e médias empresas, incluindo clínicas. Algumas das principais vantagens são:
+Automação financeira: reduz a necessidade de registros manuais, pois permite integração com contas bancárias e emissão de notas fiscais automáticas.
+Conciliação bancária simplificada: o sistema importa e categoriza automaticamente as movimentações bancárias.
+Controle de inadimplência: permite o acompanhamento de pagamentos em atraso.
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+69
+69
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Check-list da clínica
+Responsável 
+Secretária
+Objetivo
+Garantir que a clínica esteja em perfeitas condições de uso e funcionamento, verificando todos os aspectos necessários antes do início das atividades diárias.
+Recursos Necessários
+Materiais de limpeza
+Materiais de atendimento ao cliente
+Computador e celular
+Ações
+1.0 Chegar na clínica às 7 da manhã.
+2.0 Limpar a clínica.
+Tirar o pó dos móveis.
+Passar pano nos móveis.
+Lavar o banheiro.
+Lavar a louça.
+A limpeza deve ser realizada diariamente no período da manhã. Especialmente às quartas-feiras, ambas as salas devem ser limpas e organizadas antes do início do expediente, às 8h. Nos demais dias, a ordem de limpeza das salas pode variar conforme os horários das consultas.
+3.0 Verificar os equipamentos e itens essenciais.
+Identificar dispositivos fora da tomada ou descarregados.
+
+
+70
+70
+VOLTAR AO MENU
+3.1 Ligar equipamentos necessários.
+Ligar computadores e ar-condicionado.
+4.0 Reabastecer itens da clínica conforme necessidade
+Cápsulas de café, chocolates, chicletes, balas, guardanapos, adoçantes, sachês de açúcar, álcool em gel.
+Copos e pratos limpos.
+5.0 Sentar-se à mesa de recepção.
+6.0 Responder mensagens.
+Responder novos clientes que entraram em contato.
+Seguir processo: “atendimento de novos pacientes”
+Mandar mensagem padrão de pós consulta.
+Utilizar mensagem padrão de 15 dias ou 60 dias.
+Mandar mensagem padrão de confirmação de consultas que acontecerão daqui 5 dias, 3 dias ou 1 dia.
+Utilizar mensagem padrão de “confirmação 5 dias”, “confirmação 1 dia antes”, ou “confirmação de consulta 3 dias”.
+7.0 Conciliar os pagamentos no sistema da Conta Azul.
+Conferir os lançamentos do dia anterior.
+8.0 Iniciar processo de recepção dos clientes e tarefas específicas ao longo do dia.
+FIM DO PROCESSO.
+
+71
+71
+ATENDIMENTO DE LIGAÇÕES
+
+	O redesenho da etapa de atendimento por telefone tem como objetivo facilitar o treinamento e a autonomia dos futuros funcionários. Para isso, será implementado um SAC contendo as perguntas e respostas mais frequentes, permitindo um acesso rápido e eficiente às informações. Além disso, em vez de apenas responder às dúvidas dos clientes, o atendimento poderá integrar essas respostas a uma estratégia de divulgação dos serviços da clínica, ampliando o alcance das informações e fortalecendo o relacionamento com o público.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+72
+72
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Atendimento de ligações
+Responsável 
+Secretária
+Objetivo
+Atender as ligações feitas para a clínica e esclarecer dúvidas de potenciais pacientes.
+Recursos Necessários
+Celular
+Ações
+1.0  Atender o telefone
+Caso seja necessário, existe um SAC com respostas padrões e dúvidas mais recorrentes.
+A ligação é para marcar consulta?
+SIM
+1.1 Verificar as datas e horários disponíveis no Doctoralia
+1.2 Agendar a consulta no Doctoralia
+A ligação é para marcar consulta?
+NÃO
+1.3 Responder as dúvidas do paciente
+O paciente quer saber se aceitam convênio?
+NÃO
+2.0 Responder outras dúvidas.
+O paciente quer saber se aceitam convênio?
+SIM
+
+73
+73
+VOLTAR AO MENU
+2.1 Esclarecer que não aceitam convênio.
+Esclarecer que somente emitem nota fiscal.
+O convênio pode realizar o reembolso utilizando a nota fiscal.
+3.0 Falar sobre o serviço da clínica
+4.0 Responder as dúvidas, se houver
+5.0 Finalizar a ligação
+FIM DO PROCESSO
+
+74
+74
+RECEPÇÃO PRÉ-CONSULTA
+
+	No redesenho do processo, foi adicionada uma nova etapa de triagem após a aferição da pressão do paciente. Essa etapa tem como objetivo identificar se o paciente está em sua primeira consulta ou em um atendimento de seguimento. Caso seja um novo paciente, a secretaria será responsável por apresentar as políticas da clínica relacionadas a atrasos, faltas e cancelamentos, além de solicitar a assinatura de um documento que detalha as regras e procedimentos para reembolso e remarcação de consultas.
+Além disso, a etapa final foi reformulada para priorizar o envio da nota fiscal por e-mail ou WhatsApp, diminuindo custos operacionais e contribuindo para a sustentabilidade.
+Os principais ganhos incluem maior organização, redução de retrabalho, melhor adesão às políticas da clínica e otimização dos recursos administrativos. O maior risco é que podem ter pacientes com dificuldades com o uso de documentos digitais. Para mitigá-lo, é ideal caso o pagamento seja feito presencialmente perguntar ao paciente se ele prefere a nota fiscal física ou digital.
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+75
+75
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Recepção (pré-consulta)
+Responsável 
+Secretária
+Objetivo
+Garantir acolhimento, organização e orientações claras para o paciente e promover um ambiente tranquilo e profissional.
+Recursos Necessários
+Computador
+Equipamento para aferição de pressão
+Itens de hospitalidade
+Ações
+1.0 Receber o paciente na clínica.
+2.0 Cumprimentar o paciente.
+3.0 Oferecer algo para beber e comer.
+Água, café, bolo ou doce.
+O paciente deseja algo?
+SIM
+3.1 Servir o paciente.
+O paciente deseja algo?
+NÃO
+4.0 Preencher a ficha completa do paciente no Doctoralia.
+Nome e sobrenome, gênero, número e endereço.
+Somente se for a primeira consulta.
+5.0 Conferir se o pagamento já foi efetuado.
+O pagamento foi efetuado?
+SIM
+
+
+76
+76
+VOLTAR AO MENU
+O pagamento foi efetuado?
+NÃO
+5.1 Coletar pagamento.
+Somente se tiver sido acordado o pagamento de forma presencial.
+Essa tarefa pode ser realizada depois da consulta, a depender da disponibilidade de tempo.
+6.0 Pedir para aferir a pressão do paciente.
+Exemplo: “Com licença, posso aferir sua pressão?”
+7.0 Aferir a pressão do paciente.
+8.0 Anotar informações em um papel.
+9.0 Entregar o papel ao doutor.
+É a primeira consulta?
+NÃO
+É a primeira consulta?
+SIM
+Pedir para o paciente assinar o documento de políticas da clínica
+10.0 Informar que o paciente deve aguardar até ser chamado pelo doutor.
+11.0 Emitir a nota fiscal do pagamento.
+Caso o pagamento tenha sido presencial
+11.1 Enviar a  nota fiscal.
+FIM DO PROCESSO.
+
+77
+77
+RECEPÇÃO PÓS-CONSULTA
+
+	Na etapa de pós-consulta, o foco principal foi padronizar a oferta dos pacotes de sessões de psicoterapia para todos os pacientes da clínica. Além disso, foi estruturado um processo para alinhar desde a compra do pacote a jornada do paciente em cada sessão, incluindo a assinatura na ficha de controle.
+
+Outra mudança importante foi a transferência da responsabilidade pelas fichas para os doutores, aliviando a carga da secretaria. Essa abordagem dentro do consultório fortalece a relação entre paciente e profissional, permitindo que dúvidas sejam esclarecidas diretamente com o doutor, em vez de serem levadas à recepção, onde poderiam ser respondidas de forma menos precisa ou satisfatória.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+78
+78
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Recepção (pós-consulta)
+Responsável 
+Secretária
+Objetivo
+Garantir o fechamento do atendimento e fornecer as informações necessárias para a continuidade do tratamento.
+Recursos Necessários
+Computador e celular;
+Acesso ao Doctoralia.
+Ações
+1.0 Receber o paciente de volta na recepção.
+2.0 Entregar a nota fiscal.
+Somente se o pagamento tiver ocorrido de forma presencial.
+Caso o paciente prefira uma via impressa.
+O paciente é de psicoterapia ou psiquiatria?
+PSICOTERAPIA
+3.0 Abrir o Doctoralia
+Verificar se o paciente possui pacote
+O paciente é de psicoterapia ou psiquiatria?
+PSIQUIATRIA
+3.1 Abrir o Doctoralia
+Agendar a próxima consulta
+4.0 Oferecer os pacotes de psicoterapia
+Caso o paciente não tenha.
+
+79
+79
+VOLTAR AO MENU
+O paciente aceitou o serviço?
+SIM
+4.1 Registrar a compra do serviço no Doctoralia
+Avisar ao paciente como o pacote funciona
+Número de sessões, assinatura na ficha de controle após toda consulta e Doutora responsável.
+O paciente aceitou o serviço?
+NÃO
+5.0 Encaminhar o paciente para a saída da clínica
+6.0 Imprimir a ficha de controle
+7.0 Entregar a ficha para o responsável pelo paciente
+FIM DO PROCESSO.
+
+80
+80
+POLÍTICA DE CANCELAMENTO
+
+	O redesenho da fase de cancelamento incluiu uma etapa para informar os pacientes que o reembolso será processado em até 72 horas úteis, garantindo mais transparência e alinhamento de expectativas.
+
+Os ganhos esperados são a redução de dúvidas na recepção, maior previsibilidade no fluxo financeiro e melhora na satisfação dos pacientes. Os principais riscos envolvem a resistência de alguns pacientes que esperavam um reembolso imediato e a necessidade de cumprimento rigoroso do prazo. Para mitigá-los, é essencial treinar a equipe para comunicar a política com clareza e manter um controle interno eficiente.
+
+Essa mudança torna o processo mais organizado, reduzindo gargalos e fortalecendo a confiança na gestão da clínica.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+81
+81
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Política de cancelamento
+Responsável 
+Secretária
+Objetivo
+Garantir a eficiência da agenda, evitando perdas de tempo e recursos.
+Recursos Necessários
+Computador;
+Acesso ao Doctoralia.
+Ações
+1.0  Visualizar a mensagem com o pedido de cancelamento do paciente
+O pedido de cancelamento foi realizado com no mínimo 24 horas de antecedência?
+NÃO
+1.1 Avisar que não haverá reembolso.
+O pedido de cancelamento foi realizado com no mínimo 24 horas de antecedência?
+SIM
+1.1 Iniciar o processo de reembolso
+1.2 Solicitar dados bancários do paciente
+1.3 Avisar que a clínica tem 72 horas para efetuar o reembolso
+2.0 Encaminhar os dados bancários do paciente para o doutor responsável
+2.1 Aguardar o doutor efetuar o pagamento e encaminhar o comprovante
+3.0 Encaminhar o comprovante ao paciente
+4.0 Cancelar a consulta no Doctoralia
+FIM DO PROCESSO.
+
+82
+82
+RECEBIMENTO DE RECLAMAÇÕES
+
+	O redesenho do processo de recebimento de reclamações incluiu a adição de etapas para garantir um fluxo mais estruturado e eficiente. A inclusão da etapa de aviso pessoal ao gestor da clínica melhora a comunicação interna, garantindo que as reclamações sejam tratadas com maior prioridade. Além disso, a formalização do registro da reclamação e a resposta estruturada proporcionam mais rastreabilidade e organização ao processo.
+
+Os ganhos esperados incluem maior agilidade na resolução das reclamações, redução do risco de falhas na comunicação entre a recepção e a gestão, e um melhor acompanhamento dos feedbacks dos pacientes. A centralização da informação e a automação da resposta ao paciente também ajudam a melhorar a satisfação e a credibilidade da clínica.
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+83
+83
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Recebimento de reclamações
+Responsável 
+Secretárias e Doutor Marco
+Objetivo
+Identificar pontos de melhoria no atendimento, aprimorar a qualidade dos serviços e aumentar a satisfação do paciente.
+Recursos Necessários
+Computador;
+Ações
+1.0 Receber reclamação do paciente.
+2.0 Registrar a reclamação na planilha.
+3.0 Enviar a reclamação para o WhatsApp do gestor da clínica.
+4.0 Avisar pessoalmente o gestor da clínica sobre a reclamação.
+A reclamação foi online?
+NÃO
+4.1 Enviar mensagem no WhatsApp para o paciente 
+A reclamação foi online?
+SIM
+4.2 Responder a reclamação
+FIM DO PROCESSO
+
+
+84
+84
+PAGAMENTO DE CONSULTAS DA CLÍNICA
+
+	xx
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+Administrativo-Financeiro
+
+85
+85
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Pagamento de consultas da clínica - Doctoralia
+Responsável 
+Secretárias
+Objetivo
+Organizar o fluxo de pagamentos de consultas e controle financeiro garantindo a atualização correta dos registros nos sistemas utilizados.
+Recursos Necessários
+Computador
+Acesso ao Doctoralia
+Acesso a Conta Azul
+Ações
+1.0 Classificar as consultas realizadas
+Verificar no sistema quais consultas foram realizadas ou não.
+Atualizar o status para uma das opções: realizada ou não realizada.
+Identificar se a paciente é nova ou de seguimento.
+2.0 Fechar o caixa no Doctoralia
+Clicar no nome do paciente para visualizar os detalhes da consulta.
+Verificar a forma de pagamento e o valor correto.
+Preencher no espaço de notas a data do pagamento.
+2.1 Enviar o comprovante de pagamento no grupo de “Entradas da clínica” no WhatsApp.
+FIM DO PROCESSO
+
+
+86
+86
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Pagamento de consultas da clínica - Conta Azul
+Responsável 
+Secretárias
+Objetivo
+Organizar o fluxo de pagamentos de consultas e controle financeiro garantindo a atualização correta dos registros nos sistemas utilizados.
+Recursos Necessários
+Computador
+Acesso ao Doctoralia
+Acesso a Conta Azul
+Ações
+1.0  Registrar as vendas na Conta Azul
+Informar o nome do paciente e valor da consulta.
+Toda venda realizada deve ser registrada imediatamente no sistema.
+Lançar a venda antes de emitir a nota.
+2.0 Conferir os pagamentos de consultas da semana
+O paciente já pagou a consulta?
+NÃO
+2.0 Realizar a cobrança pelo WhatsApp
+Caso o paciente não pague até 6 horas antes da consulta, a consulta deve ser cancelada.
+O paciente já pagou a consulta?
+SIM
+FIM DO PROCESSO
+
+87
+87
+REPOSIÇÃO DE INSUMOS DA CLÍNICA
+
+	O redesenho do processo de gestão de estoque visa reduzir sua imprevisibilidade e tornar a reposição de insumos mais eficiente. A mudança se justifica pela necessidade de garantir materiais sempre disponíveis, evitando faltas e compras emergenciais.
+Os ganhos esperados incluem maior previsibilidade, melhor controle com a atualização periódica da planilha pela secretaria e agilização das compras com um documento de fornecedores. Além disso, o gestor deixa de ser responsável pela compra e transporte, focando apenas no pagamento.
+Os principais riscos envolvem falhas na atualização da planilha ou atrasos na reposição. Para mitigar esses problemas, será adotado um cronograma fixo de atualização e um plano de contingência com fornecedores alternativos.
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+88
+88
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Reposição de insumos da clínica
+Responsável 
+Secretárias e Doutor Marco
+Objetivo
+Garantir que os insumos necessários para o funcionamento da clínica sejam repostos de forma organizada e atualizadas no controle financeiro.
+Recursos Necessários
+Celular
+Estoque
+Ações
+1.0 Verificar a planilha de controle de estoque.
+Algum item está sem estoque ou estoque perigoso?
+SIM
+2.0 Consultar o cadastro de fornecedores.
+3.0 Realizar os pedidos de produtos faltantes.
+O pedido deve ser feito de acordo com a quantidade mínima necessária indicada na planilha.
+4.0 Encaminhar ao gestor da clínica os valores a serem pagos.
+Enviar no grupo “Despesas da clínica” no WhatsApp.
+5.0 Efetuar o pagamento.
+Encaminhar o comprovante de pagamento para a Secretária.
+Enviar no grupo “Despesas da clínica” no WhatsApp.
+6.0 Confirmar a entrega dos itens comprados.
+8.0 Registrar a compra de cada item na guia “Entradas”.
+
+
+
+89
+89
+VOLTAR AO MENU
+9.0 Separar os materiais que serão utilizados de imediato.
+10.0 Registrar a quantidade de materiais que foram separados para uso na guia “Saídas”.
+11.0 Armazenar os itens restantes no armário da clínica.
+Algum item está sem estoque ou estoque perigoso?
+NÃO
+FIM DO PROCESSO.
+
+90
+90
+MARCAÇÃO DE EXAMES DE POLISSONOGRAFIA
+
+	A inclusão da etapa "Receber o briefing sobre o exame" no redesenho do processo de marcação do exame de polissonografia permite que o profissional obtenha informações detalhadas sobre o exame antes de oferecê-lo ao paciente, garantindo que a comunicação seja mais clara e precisa. Isso reduz o risco de dúvidas e incertezas, proporcionando uma explicação mais personalizada e aumentando a confiança do paciente na decisão de realizar o exame. Esse redesenho também otimiza o fluxo de trabalho da recepção e da secretaria, permitindo que a equipe foque na organização dos exames sem precisar esclarecer tantas dúvidas posteriormente. 
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+Exames e Medicamentos
+
+91
+91
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Marcação de exames
+Responsável 
+Doutores e Secretárias
+Objetivo
+Organizar o processo de marcação, entrega, uso e devolução do aparelho de polissonografia, garantindo o correto uso pelo paciente e a preservação do equipamento.
+Recursos Necessários
+Equipamento de Polissonografia
+Esparadrapos
+Termo de Compromisso
+Ações
+1.0 Oferecer o exame ao paciente.
+Em caso de dúvida, consultar o briefing sobre o exame oferecido.
+Os Doutores são responsáveis por oferecer o exame de polissonografia ao paciente.
+O paciente tem interesse no exame?
+SIM
+1.2 Avisar que a Secretária irá marcar o exame
+2.0 Agendar o exame
+Verificar a disponibilidade de dia e horário para retorno do paciente.
+3.0 Explicar como o exame funciona
+4.0 Orientar o paciente a baixar o aplicativo Biologix.
+Disponível na App Store e Google Play.
+O paciente deve criar uma conta e conectar o aparelho ao aplicativo no dia do exame.
+
+
+92
+92
+VOLTAR AO MENU
+5.0 Solicitar a assinatura do termo de compromisso.
+Informar o paciente sobre as penalidades do termo de compromisso.
+Multa em caso de atraso na devolução e custo total do aparelho em caso de danos ou perda.
+Uma cópia do termo de compromisso é guardado na gaveta da clínica e a outra é entregue ao paciente.
+6.0 Entregar o aparelho.
+Explicar o funcionamento do aparelho.
+7.0 Receber o aparelho de volta.
+Verificar as condições do equipamento.
+Registrar a devolução.
+8.0 Imprimir o resultado do exame.
+Entregar o resultado do exame para o paciente no dia da devolução do aparelho.
+O Doutor Marco aborda o resultado caso o paciente envie uma mensagem perguntando ou na consulta de seguimento.
+9.0 Higienizar o aparelho.
+Limpar o aparelho.
+Verificar a quantidade de esparadrapo disponível.
+Guardar o aparelho.
+FIM DO PROCESSO
+
+93
+93
+REUNIÃO COM REPRESENTANTES COMERCIAIS
+
+	No redesenho do processo, sugere-se definir um dia fixo a cada 15 dias para a realização das reuniões. Assim, ao verificar a disponibilidade, a secretaria apenas consulta o horário disponível mais próximo. Se houver horário vago, a reunião é agendada; caso contrário, é marcada para a próxima data disponível. Esse modelo elimina a necessidade de abordar o responsável sempre que um representante comercial solicitar uma reunião, tornando o processo mais organizado e eficiente.
+
+
+
+Clique no ícone abaixo para visualizar o redesenho do processo realizado no Bizagi:
+VOLTAR AO MENU
+
+94
+94
+VOLTAR AO MENU
+Procedimento Operacional Padrão
+Tarefa
+Agendar reunião com os representantes comerciais
+Responsável 
+Secretária
+Objetivo
+Organizar o fluxo de interação com representantes de indústrias farmacêuticas para garantir que apresentações de produtos sejam realizadas de forma eficiente e otimizando o tempo da equipe.
+Recursos Necessários
+Computador
+Acesso ao doctoralia
+Ações
+1.0 Recepcionar os representantes farmacêuticos na clínica.
+Registrar o nome do representante, a empresa e o telefone.
+2.0 Receber os medicamentos.
+O representante quer marcar uma reunião?
+SIM
+3.0 Marcar reunião no Doctoralia
+Verificar o horário mais próximo disponível.
+O representante quer marcar uma reunião?
+NÃO
+4.0 Guardar as amostras grátis no armário do consultório.
+FIM DO PROCESSO
+
+Indicadores
+
+96
+96
+De acordo com o SEBRAE, indicadores de desempenho, também conhecidos como KPIs (Key Performance Indicators), são métricas utilizadas para avaliar o progresso de uma empresa ou equipe em relação a metas e objetivos predefinidos. Esses indicadores podem ser quantitativos ou qualitativos e servem para monitorar a eficiência, eficácia e qualidade das ações implementadas, auxiliando na tomada de decisões estratégicas e no aprimoramento contínuo dos processos organizacionais.
+A implementação de indicadores de desempenho é fundamental para que as organizações possam identificar pontos fortes e áreas que necessitam de melhorias. Dessa forma, as empresas conseguem alinhar suas estratégias operacionais aos objetivos corporativos, garantindo uma gestão mais assertiva e orientada por dados concretos.
+A escolha dos indicadores mais adequados varia conforme a realidade de cada organização. No caso da clínica, foram definidos quatro indicadores essenciais para monitorar seu desempenho: Taxa de recorrência dos pacientes, Taxa de conversão de leads, Taxa de reclamações e NPS (Net Promoter Score). O acompanhamento contínuo desses dados poderá ser feito por meio de uma planilha automatizada, que possibilitará ajustes estratégicos, garantindo um desempenho sustentável e competitivo no mercado.
+
+Clique no ícone abaixo para visualizar a planilha no Google Planilhas:
+VOLTAR AO MENU
+
+Implementação
+
+98
+98
+Para otimizar o controle de entrada e saída de produtos, foi criada uma planilha automatizada no Excel. Assim, sempre que um item for adicionado ou retirado do estoque, o funcionário responsável deve atualizar o arquivo em tempo real. A planilha permite o registro em tempo real das entradas e saídas de produtos, além do cadastro de dados de fornecedores e dashboards com gráficos para acompanhar a quantidade e o valor total dos produtos ao longo dos meses.
+
+Benefícios dessa abordagem:
+
+Maior Precisão: reduz erros e inconsistências nos registros.
+Acompanhamento em Tempo Real: facilita a tomada de decisões para entrar em contato com o fornecedor antes do item acabar.
+Histórico Organizado: permite rastrear cada movimentação facilmente.
+Automação:  sempre que a planilha for atualizada e o estoque de um produto atingir o nível mínimo, ele será destacado automaticamente.
+
+Clique no ícone abaixo para ser direcionado à pasta no Google Drive que contém a planilha. Para acessá-la, é necessário baixar o arquivo:
+VOLTAR AO MENU
+Estoque
+
+99
+99
+Para garantir um acompanhamento mais eficaz da atualização da planilha de estoque e da Conta Azul, recomenda-se a realização de reuniões quinzenais com os profissionais da recepção da clínica. Nessas reuniões, será possível avaliar o status da atualização das plataformas e corrigir eventuais erros. Esse também é o momento ideal para que o gestor demonstre visualmente como deseja que o serviço seja realizado.
+
+Medidas para organização e registro:
+
+Ata de reunião no Google Planilhas: para consolidar os assuntos discutidos, recomenda-se o preenchimento de uma ata contendo:
+
+Lista de participantes presentes.
+Atividades realizadas na última quinzena.
+Acordos firmados entre o gestor e os colaboradores.
+Compromissos assumidos pelo gestor para apoiar a equipe.
+
+Uso de gravador de reuniões: caso necessário, a utilização de um aplicativo de gravação pode facilitar o acompanhamento. Esse tipo de ferramenta gera um resumo automático da reunião por e-mail e permite o acesso à transcrição completa.
+Clique nos ícones abaixo para visualizar um modelo de ata de reunião e acessar o aplicativo tl;dv:
+VOLTAR AO MENU
+Reuniões
+
+100
+100
+Para padronizar a contratação e facilitar a adaptação de novos funcionários, será implementado um processo de onboarding – a integração do colaborador à empresa, garantindo que ele compreenda suas funções, cultura e recursos disponíveis.  
+
+No primeiro dia, o colaborador receberá:  
+
+POP’s: Suas responsabilidades detalhadas.  
+Documento MVV: Explicação da Missão, Visão e Valores da empresa.  
+Acesso ao Notion: Página com FAQ interno, contatos e links essenciais.  
+
+Benefícios:
+
+Integração mais rápida e eficiente.  
+Maior clareza nas funções e expectativas.  
+Fortalecimento da cultura organizacional.  
+Autonomia para consultar informações importantes.  
+Acompanhamento de demandas.
+
+Clique no ícone abaixo para visualizar o documento e criar uma conta no notion:
+VOLTAR AO MENU
+Onboarding
+
+101
+101
+Para padronizar a experiência do cliente e reduzir gastos com equipamentos e energia, é recomendável que a clínica implemente uma recepção única, centralizando o primeiro contato com o paciente. Essa abordagem evita a duplicação de funções, como ter dois funcionários desempenhando o mesmo papel em salas diferentes, o que pode levar a ineficiências operacionais.​
+O psicólogo organizacional J. Richard Hackman desenvolveu uma fórmula para dimensionamento de equipes: N(N-1)/2, onde N representa o número de membros da equipe. Essa fórmula demonstra que, à medida que o número de membros aumenta, as interações e complexidades crescem exponencialmente, potencialmente dificultando a coordenação e a comunicação eficazes. ​
+
+
+
+
+
+
+
+Aplicando esse conceito à clínica, manter dois funcionários com a mesma função em locais distintos pode aumentar desnecessariamente as linhas de comunicação e os desafios de coordenação. Ao estabelecer uma recepção única e distinguir claramente as funções dos funcionários, a clínica pode melhorar a eficiência operacional, reduzir custos e proporcionar uma experiência mais consistente e satisfatória aos pacientes.
+VOLTAR AO MENU
+Recepção
+
+102
+102
+Atualmente, a recepção da clínica conta com dois funcionários responsáveis por diversas funções, incluindo recepção de pacientes, marcação de consultas, limpeza, atualização de registros e cobrança no setor administrativo-financeiro. No entanto, essa acumulação de tarefas pode comprometer a eficiência e a qualidade do trabalho, resultando em sobrecarga, menor produtividade, aumento de erros e dificuldades na organização das demandas.
+
+Para otimizar o fluxo de trabalho, a melhor abordagem seria a especialização das funções:
+
+Secretária: Responsável pela recepção dos pacientes, marcação de consultas, alinhamento com os doutores sobre cancelamentos e reagendamentos, além da gestão da polissonografia e da agenda dos médicos no Doctoralia.
+Auxiliar Administrativo/Financeiro: Responsável pela atualização financeira na Conta Azul, manutenção da planilha de estoque, compra e reposição de insumos, cobrança de pagamentos e organização da limpeza da clínica.
+
+Benefícios dessa mudança:
+
+Contratação mais assertiva: cada cargo exigirá competências e formações específicas.
+Maior eficiência e produtividade: funcionários especializados terão mais foco e desempenho aprimorado.
+VOLTAR AO MENU
+Colaboradores
+
+103
+103
+Além disso, para auxiliar no processo de contratação, o ideal é consultar a descrição do cargo na Classificação Brasileira de Ocupações (CBO).  A CBO é um sistema do governo que padroniza e descreve as atividades e requisitos de diversas profissões no Brasil. Ela serve como referência para definir atribuições, qualificações e responsabilidades de cada função, garantindo que a contratação esteja alinhada com as exigências do mercado e da legislação trabalhista.
+VOLTAR AO MENU
+RECEPCIONISTA SECRETÁRIA
+Código: 4221-05
+Títulos do cargo
+Atendente de ambulatório;
+Atendente de clínica médica;
+Atendente de consultório médico;
+Auxiliar de recepção;
+Recepcionista de hospital.
+Descrição Sumária
+Recepcionar e prestar serviços de apoio a clientes e pacientes
+Prestar atendimento telefônico e fornecer informações em escritório e consultórios
+Marcar entrevistas ou consultas e receber clientes ou visitantes
+Averiguam suas necessidades e dirigir ao lugar ou a pessoa procurados
+Agendar serviços, reservar (hotéis e passagens) e indicar acomodações em hotéis e estabelecimentos similares
+Observar normas internas de segurança e conferir documentos e 
+Fechar contas e estadas de clientes
+Organizar informações e planejar o trabalho do cotidiano
+
+104
+104
+VOLTAR AO MENU
+ASSISTENTE ADMINISTRATIVO
+Código: 4110-10
+Títulos do cargo
+Agente administrativo;
+Assistente de escritório
+Descrição Sumária
+Executar serviços de apoio nas áreas de recursos humanos, administração, finanças e logística
+Atender fornecedores e clientes, fornecendo e receber informações sobre produtos e serviços
+Tratar de documentos variados, cumprindo todo o procedimento necessário referente aos mesmos
+Atuar na concessão de microcrédito a microempresários, atendendo clientes em campo e nas agências, prospectando clientes nas comunidades
+Atuar na área de captação de recursos, planejando e implementando estratégias de captação e contato com doadores/ parceiros.
+
+105
+105
+VOLTAR AO MENU
+AUXILIAR DE CONTABILIDADE
+Código: 4131-10
+Títulos do cargo
+Assistente de serviço de contabilidade;
+Auxiliar contábil;
+Auxiliar de contas a pagar;
+Auxiliar de contas a receber;
+Auxiliar financeiro.
+Descrição Sumária
+Organizar documentos e efetuar sua classificação contábil
+Gerar lançamentos contábeis, auxiliar na apuração dos impostos, conciliar contas e preenchimento de guias de recolhimento e de solicitações, junto a órgãos do governo
+Emitir notas de venda e de transferência entre outras
+Realizar o arquivo de documentos
+Além disso, caso seja constatado que a carga horária para o cargo administrativo-financeiro não precisa ser de 8 horas diárias, uma alternativa viável seria a contratação de um estagiário do curso de Contabilidade, ao invés de um funcionário CLT.
+A contratação de um estagiário ao invés de um funcionário CLT para a função administrativo-financeira pode trazer diversos benefícios para a clínica, como:
+Redução de custos: estagiários possuem encargos trabalhistas menores, o que diminui os gastos da empresa.
+Especialização na função: o estagiário terá formação na área financeira, garantindo maior precisão nas tarefas.
+
+106
+106
+Aprimoramento da organização: um profissional dedicado exclusivamente às funções administrativas e financeiras melhora a gestão dos processos.
+Atualização com novas práticas: como está em formação, o estagiário traz conhecimentos atualizados sobre contabilidade e finanças.
+Possibilidade de efetivação: caso o desempenho seja positivo, a clínica pode formar um profissional alinhado com suas necessidades a longo prazo.
+
+Uma forma eficaz de contratar novos funcionários é divulgar o processo seletivo no LinkedIn, permitindo que a clínica alcance candidatos qualificados de maneira estratégica. A plataforma facilita a segmentação de perfis, tornando o recrutamento mais assertivo, além de oferecer acesso ao histórico profissional dos candidatos, agilizando a seleção.
+
+Outra opção para atrair jovens profissionais é utilizar uma plataforma especializada na divulgação de vagas de estágio. Como sugestão, a Up Estágio pode ser uma boa alternativa, pois divulga oportunidades em canais estratégicos e realiza triagens para identificar candidatos compatíveis com cada vaga.
+
+Clique na imagem abaixo para acessar o site:
+VOLTAR AO MENU
+
+107
+107
+No ano de 2025, segundo dados nacionais a remuneração total mensal estimada para o cargo de Estagiário é de R$ 1.635, com uma média salarial de R$ 1.500 por mês. Esses valores correspondem à mediana, representando o ponto médio dos intervalos do nosso modelo exclusivo de Estimativa de Pagamento Total, baseado em dados salariais fornecidos pelos usuários. Ao buscar fontes onlines, como Linkedin e sites de emprego, foi constatado que a faixa salarial distrital é de R$ 950,00 à 1.500 + vale-transporte, em ambos os casos remuneratórios.
+
+Além disso, contar com o auxílio de uma empresa especializada reduz as responsabilidades da clínica no processo de atração e seleção, facilitando a contratação de estagiários. Essa assessoria pode cuidar da elaboração dos contratos (Termos de Estágio) e dos Planos de Atividades, garantindo que toda a documentação esteja em conformidade com a legislação vigente. Ainda, desenvolve um Plano de Atividades alinhado tanto ao aprendizado do estagiário quanto às necessidades da empresa.
+Por fim, para garantir um maior controle da jornada dos colaboradores, especialmente considerando a expansão da equipe, sugere-se a aquisição de um relógio de ponto.  Essa ferramenta permitirá um monitoramento preciso das horas trabalhadas, facilitando a remuneração correta dos funcionários que excederem sua carga horária. Além disso, essa iniciativa aumenta a segurança jurídica do gestor, assegurando o cumprimento da legislação trabalhista, e estabelece um sistema de pagamento mais justo e transparente para os colaboradores.
+
+Clique no ícone abaixo para visualizar a sugestão de produto, no site da Amazon:
+VOLTAR AO MENU
+
+Camila Borges (Consultora):
+camilaborges@admconsultoria.com.br
+
+Suzana Stella (Consultora):
+suzanastella@admconsultoria.com.br
+
+Carolina Braga  (Gerente):
+carolinabraga@admconsultoria.com.br
+
+Rodrigo Nathan (Customer Success):
+rodrigonathan@admconsultoria.com.br
+
+Dúvidas?
+Entre em contato conosco.
+
+VOLTAR AO MENU
