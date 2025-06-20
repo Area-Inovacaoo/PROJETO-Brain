@@ -42,7 +42,7 @@ st.markdown("""
 
 
 # Caminhos das logos
-LOGO_BOT_PATH = "assets/Cópia de Logo BRANCA HD cópia.png"
+LOGO_BOT_PATH = "assets/Logo.branca.png"
 ICON_PATH = "assets/icon_cade.png"
 
 
