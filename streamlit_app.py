@@ -7,6 +7,7 @@ import json
 import hashlib
 import glob
 
+
 # Configurações iniciais
 st.set_page_config(
     page_title="AD&M IA",
@@ -14,42 +15,39 @@ st.set_page_config(
     layout="wide",
 )
 
-# Estilo: ocultar barra superior do Streamlit
+
+# Ocultar barra superior do Streamlit (Share, GitHub, etc.)
 st.markdown("""
     <style>
-    [data-testid="stToolbar"] {visibility: hidden !important; display: none !important;}
-    header.st-emotion-cache-18ni7ap {display: none !important;}
-    .stActionButtonIcon {display: none !important;}
+    [data-testid="stToolbar"] {
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+
+    header.st-emotion-cache-18ni7ap {
+        display: none !important;
+    }
+
+
+    .stActionButtonIcon {
+        display: none !important;
+    }
     </style>
 """, unsafe_allow_html=True)
+
+
+
+
+
 
 # Caminhos das logos
 LOGO_BOT_PATH = "assets/Logo.branca.png"
 ICON_PATH = "assets/icon_cade.png"
 
+
 LOGO_BOT = Image.open(LOGO_BOT_PATH) if os.path.exists(LOGO_BOT_PATH) else None
 
-# Sidebar (sempre exibida primeiro)
-with st.sidebar:
-    if LOGO_BOT:
-        st.image(LOGO_BOT, width=300)
-    else:
-        st.markdown("**Logo não encontrada**")
-    
-    api_key = st.text_input("🔑 Chave API OpenAI", type="password", placeholder="Insira sua chave API")
-
-    if st.button("🧹 Limpar Histórico do Chat", key="limpar_historico"):
-        st.session_state.mensagens_chat = []
-        st.session_state.perguntas_respondidas = set()
-        salvar_estado()
-        st.success("Histórico do chat limpo com sucesso!")
-
-# Se não tiver chave, mostra aviso na tela principal (sem interromper renderização da sidebar)
-if not api_key:
-    st.warning("Por favor, insira sua chave de API na barra lateral para continuar.")
-    st.stop()
-else:
-    openai.api_key = api_key
 
 # Header com ícone e título
 if os.path.exists(ICON_PATH):
@@ -61,18 +59,19 @@ if os.path.exists(ICON_PATH):
 else:
     st.title("AD&M IA")
 
+
 st.markdown(
     '<p class="subtitulo">Sou uma IA desenvolvida pela AD&M consultoria empresarial, reunindo estudos e documentos sobre seu projeto e estou aqui para te ajudar 😁 !</p>',
     unsafe_allow_html=True
 )
 
-# Estado de sessão
+
 if "mensagens_chat" not in st.session_state:
     st.session_state.mensagens_chat = []
 if "perguntas_respondidas" not in st.session_state:
     st.session_state.perguntas_respondidas = set()
 
-# Funções de estado
+
 def salvar_estado():
     try:
         with open("estado_bot.json", "w") as f:
@@ -83,6 +82,7 @@ def salvar_estado():
     except Exception as e:
         st.error(f"Erro ao salvar estado: {e}")
 
+
 def carregar_estado():
     if os.path.exists("estado_bot.json"):
         with open("estado_bot.json", "r") as f:
@@ -91,7 +91,14 @@ def carregar_estado():
             st.session_state.perguntas_respondidas = set(estado.get("perguntas_respondidas", []))
 carregar_estado()
 
-# Carregamento de contexto
+
+def limpar_historico():
+    st.session_state.mensagens_chat = []
+    st.session_state.perguntas_respondidas = set()
+    salvar_estado()
+
+
+# 🔄 NOVO: carregar automaticamente arquivos da pasta /contextos/
 def carregar_contexto():
     contexto = ""
     for caminho in sorted(glob.glob("contextos/*.txt")):
@@ -99,9 +106,10 @@ def carregar_contexto():
             contexto += f.read() + "\n\n"
     return contexto
 
+
 contexto = carregar_contexto()
 
-# Funções auxiliares
+
 def dividir_texto(texto, max_tokens=800):
     palavras = texto.split()
     chunks, chunk_atual = [], ""
@@ -115,31 +123,39 @@ def dividir_texto(texto, max_tokens=800):
         chunks.append(chunk_atual.strip())
     return chunks
 
+
 def selecionar_chunks_relevantes(pergunta, chunks):
     palavras_chave = pergunta.lower().split()
     return [c for c in chunks if any(p in c.lower() for p in palavras_chave)][:4]
+
 
 def gerar_resposta(texto_usuario):
     if not contexto:
         return "Erro: Nenhum contexto carregado."
 
+
     pergunta_hash = hashlib.sha256(texto_usuario.strip().lower().encode()).hexdigest()
     if pergunta_hash in st.session_state.perguntas_respondidas:
         return "Essa pergunta já foi respondida anteriormente. Deseja que eu a aprofunde ou traga uma perspectiva diferente?"
 
+
     chunks = dividir_texto(contexto)
     chunks_relevantes = selecionar_chunks_relevantes(texto_usuario, chunks)
+
 
     contexto_pergunta = """
 Você é a AD&M IA, uma inteligência artificial treinada com base nos projetos, documentos e metodologias utilizadas pela AD&M Consultoria Empresarial, para prestar auxílio ao cliente do projeto que faz parte do seu contexto. Seu papel é:
 1. Fornecer respostas claras, educadas e baseadas em dados reais e nos documentos oferecidos do projeto;
-2. Gerar insights estratégicos e práticos que o cliente possa aplicar imediatamente;
+2. Gerar insights estratégicos e práticos que o cliente possa aplicar imediatamente, sabendo exatamente o que ele precisa fazer para colocar em prática as suas ideias;
 3. Sempre responder com objetividade, linguagem simples e foco em Administração, Gestão de Processos, Planejamento Estratégico e Soluções Empresariais;
 4. Se basear no conteúdo a seguir (trechos de projetos anteriores) para responder a pergunta;
 5. Caso não encontre resposta no contexto, responda com sugestões realistas baseadas em boas práticas de consultorias empresariais de referência global.
+Mantenha sempre um tom profissional e propositivo.
+Abaixo estão trechos relevantes para sua análise:
 """
     for i, chunk in enumerate(chunks_relevantes):
         contexto_pergunta += f"\n--- Parte {i+1} do Contexto ---\n{chunk}\n"
+
 
     mensagens = [{"role": "system", "content": contexto_pergunta}]
     for msg in st.session_state.mensagens_chat:
@@ -147,6 +163,7 @@ Você é a AD&M IA, uma inteligência artificial treinada com base nos projetos,
         if msg["bot"]:
             mensagens.append({"role": "assistant", "content": msg["bot"]})
     mensagens.append({"role": "user", "content": texto_usuario})
+
 
     for tentativa in range(3):
         try:
@@ -167,13 +184,32 @@ Você é a AD&M IA, uma inteligência artificial treinada com base nos projetos,
             else:
                 return f"Erro ao gerar a resposta: {str(e)}"
 
-# Chat principal
+
+# Sidebar
+if LOGO_BOT:
+    st.sidebar.image(LOGO_BOT, width=300)
+else:
+    st.sidebar.markdown("**Logo não encontrada**")
+
+
+api_key = st.sidebar.text_input("🔑 Chave API OpenAI", type="password", placeholder="Insira sua chave API")
+if not api_key:
+    st.warning("Por favor, insira sua chave de API para continuar.")
+    st.stop()
+else:
+    openai.api_key = api_key
+    if st.sidebar.button("🧹 Limpar Histórico do Chat", key="limpar_historico"):
+        limpar_historico()
+        st.sidebar.success("Histórico do chat limpo com sucesso!")
+
+
 user_input = st.chat_input("💬 Sua pergunta:")
 if user_input and user_input.strip():
     st.session_state.mensagens_chat.append({"user": user_input, "bot": None})
     resposta = gerar_resposta(user_input)
     st.session_state.mensagens_chat[-1]["bot"] = resposta
     salvar_estado()
+
 
 with st.container():
     if st.session_state.mensagens_chat:
@@ -187,3 +223,5 @@ with st.container():
     else:
         with st.chat_message("assistant"):
             st.markdown("*AD&M IA:* Nenhuma mensagem ainda.", unsafe_allow_html=True)
+
+            
