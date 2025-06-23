@@ -8,6 +8,8 @@ import hashlib
 import glob
 
 
+
+
 # Configurações iniciais
 st.set_page_config(
     page_title="AD&M IA",
@@ -16,39 +18,32 @@ st.set_page_config(
 )
 
 
-# Ocultar barra superior do Streamlit (Share, GitHub, etc.)
-st.markdown("""
-    <style>
-    [data-testid="stToolbar"] {
-        visibility: hidden !important;
-        display: none !important;
-    }
-
-
-    header.st-emotion-cache-18ni7ap {
-        display: none !important;
-    }
-
-
-    .stActionButtonIcon {
-        display: none !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
-
-
-
 
 
 # Caminhos das logos
-LOGO_BOT_PATH = "assets/Logo.branca.png"
+LOGO_BOT_PATH = "assets/Cópia de Logo BRANCA HD cópia.png"
 ICON_PATH = "assets/icon_cade.png"
+
+
 
 
 LOGO_BOT = Image.open(LOGO_BOT_PATH) if os.path.exists(LOGO_BOT_PATH) else None
 
 
+# INSIRA ESTE NOVO BLOCO DE CÓDIGO
+st.markdown(
+    """
+    <style>
+        [data-testid="stToolbar"] {
+            opacity: 0;
+            height: 0px;
+            overflow: hidden;
+            pointer-events: none;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Header com ícone e título
 if os.path.exists(ICON_PATH):
     col1, col2 = st.columns([1.5, 4])
@@ -60,16 +55,22 @@ else:
     st.title("AD&M IA")
 
 
+
+
 st.markdown(
     '<p class="subtitulo">Sou uma IA desenvolvida pela AD&M consultoria empresarial, reunindo estudos e documentos sobre seu projeto e estou aqui para te ajudar 😁 !</p>',
     unsafe_allow_html=True
 )
 
 
+
+
 if "mensagens_chat" not in st.session_state:
     st.session_state.mensagens_chat = []
 if "perguntas_respondidas" not in st.session_state:
     st.session_state.perguntas_respondidas = set()
+
+
 
 
 def salvar_estado():
@@ -83,6 +84,8 @@ def salvar_estado():
         st.error(f"Erro ao salvar estado: {e}")
 
 
+
+
 def carregar_estado():
     if os.path.exists("estado_bot.json"):
         with open("estado_bot.json", "r") as f:
@@ -92,10 +95,14 @@ def carregar_estado():
 carregar_estado()
 
 
+
+
 def limpar_historico():
     st.session_state.mensagens_chat = []
     st.session_state.perguntas_respondidas = set()
     salvar_estado()
+
+
 
 
 # 🔄 NOVO: carregar automaticamente arquivos da pasta /contextos/
@@ -107,7 +114,11 @@ def carregar_contexto():
     return contexto
 
 
+
+
 contexto = carregar_contexto()
+
+
 
 
 def dividir_texto(texto, max_tokens=800):
@@ -124,9 +135,13 @@ def dividir_texto(texto, max_tokens=800):
     return chunks
 
 
+
+
 def selecionar_chunks_relevantes(pergunta, chunks):
     palavras_chave = pergunta.lower().split()
     return [c for c in chunks if any(p in c.lower() for p in palavras_chave)][:4]
+
+
 
 
 def gerar_resposta(texto_usuario):
@@ -134,13 +149,19 @@ def gerar_resposta(texto_usuario):
         return "Erro: Nenhum contexto carregado."
 
 
+
+
     pergunta_hash = hashlib.sha256(texto_usuario.strip().lower().encode()).hexdigest()
     if pergunta_hash in st.session_state.perguntas_respondidas:
         return "Essa pergunta já foi respondida anteriormente. Deseja que eu a aprofunde ou traga uma perspectiva diferente?"
 
 
+
+
     chunks = dividir_texto(contexto)
     chunks_relevantes = selecionar_chunks_relevantes(texto_usuario, chunks)
+
+
 
 
     contexto_pergunta = """
@@ -157,12 +178,16 @@ Abaixo estão trechos relevantes para sua análise:
         contexto_pergunta += f"\n--- Parte {i+1} do Contexto ---\n{chunk}\n"
 
 
+
+
     mensagens = [{"role": "system", "content": contexto_pergunta}]
     for msg in st.session_state.mensagens_chat:
         mensagens.append({"role": "user", "content": msg["user"]})
         if msg["bot"]:
             mensagens.append({"role": "assistant", "content": msg["bot"]})
     mensagens.append({"role": "user", "content": texto_usuario})
+
+
 
 
     for tentativa in range(3):
@@ -185,11 +210,15 @@ Abaixo estão trechos relevantes para sua análise:
                 return f"Erro ao gerar a resposta: {str(e)}"
 
 
+
+
 # Sidebar
 if LOGO_BOT:
     st.sidebar.image(LOGO_BOT, width=300)
 else:
     st.sidebar.markdown("**Logo não encontrada**")
+
+
 
 
 api_key = st.sidebar.text_input("🔑 Chave API OpenAI", type="password", placeholder="Insira sua chave API")
@@ -203,12 +232,16 @@ else:
         st.sidebar.success("Histórico do chat limpo com sucesso!")
 
 
+
+
 user_input = st.chat_input("💬 Sua pergunta:")
 if user_input and user_input.strip():
     st.session_state.mensagens_chat.append({"user": user_input, "bot": None})
     resposta = gerar_resposta(user_input)
     st.session_state.mensagens_chat[-1]["bot"] = resposta
     salvar_estado()
+
+
 
 
 with st.container():
@@ -224,4 +257,3 @@ with st.container():
         with st.chat_message("assistant"):
             st.markdown("*AD&M IA:* Nenhuma mensagem ainda.", unsafe_allow_html=True)
 
-            
