@@ -50,7 +50,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Inicializar variáveis de estado
+# Estado de sessão
 if "mensagens_chat" not in st.session_state:
     st.session_state.mensagens_chat = []
 if "perguntas_respondidas" not in st.session_state:
@@ -80,7 +80,7 @@ def limpar_historico():
     st.session_state.perguntas_respondidas = set()
     salvar_estado()
 
-# 🔄 Carregar automaticamente arquivos da pasta /contextos/
+# Carregar contexto
 def carregar_contexto():
     contexto = ""
     for caminho in sorted(glob.glob("contextos/*.txt")):
@@ -157,27 +157,34 @@ Abaixo estão trechos relevantes para sua análise:
             else:
                 return f"Erro ao gerar a resposta: {str(e)}"
 
-# Sidebar (agora sempre visível)
+# ---------------------- Sidebar ----------------------
+
+# ✅ FORÇANDO DEBUG VISUAL DA SIDEBAR
+st.sidebar.markdown("## ✅ Sidebar carregada com sucesso")
+
+# Exibe logo na sidebar (se houver)
 if LOGO_BOT:
     st.sidebar.image(LOGO_BOT, width=300)
 else:
     st.sidebar.markdown("**Logo não encontrada**")
 
+# Campo de API key
 api_key = st.sidebar.text_input("🔑 Chave API OpenAI", type="password", placeholder="Insira sua chave API")
 
-# Botão de limpar histórico (sempre visível)
+# Botão de limpar histórico
 if st.sidebar.button("🧹 Limpar Histórico do Chat", key="limpar_historico"):
     limpar_historico()
     st.sidebar.success("Histórico do chat limpo com sucesso!")
 
-# Agora faz o check da API key
+# 🚨 CHECK de API KEY - Só interrompe DEPOIS que a sidebar inteira foi renderizada
 if not api_key:
     st.warning("Por favor, insira sua chave de API para continuar.")
     st.stop()
 else:
     openai.api_key = api_key
 
-# Campo de input do usuário
+# -------------------- Corpo principal --------------------
+
 user_input = st.chat_input("💬 Sua pergunta:")
 if user_input and user_input.strip():
     st.session_state.mensagens_chat.append({"user": user_input, "bot": None})
@@ -185,7 +192,6 @@ if user_input and user_input.strip():
     st.session_state.mensagens_chat[-1]["bot"] = resposta
     salvar_estado()
 
-# Exibir histórico de mensagens
 with st.container():
     if st.session_state.mensagens_chat:
         for mensagem in st.session_state.mensagens_chat:
