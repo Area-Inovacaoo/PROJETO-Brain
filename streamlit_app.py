@@ -7,7 +7,7 @@ import json
 import hashlib
 import glob
 
-# Configurações iniciais
+# Configuração inicial da página
 st.set_page_config(
     page_title="AD&M IA",
     page_icon="💙",
@@ -20,7 +20,7 @@ ICON_PATH = "assets/icon_cade.png"
 
 LOGO_BOT = Image.open(LOGO_BOT_PATH) if os.path.exists(LOGO_BOT_PATH) else None
 
-# Ocultar barra superior do Streamlit
+# Esconde a barra superior padrão do Streamlit
 st.markdown(
     """
     <style>
@@ -35,7 +35,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Header com ícone e título
+# Header da página
 if os.path.exists(ICON_PATH):
     col1, col2 = st.columns([1.5, 4])
     with col1:
@@ -46,7 +46,7 @@ else:
     st.title("AD&M IA")
 
 st.markdown(
-    '<p class="subtitulo">Sou uma IA desenvolvida pela AD&M consultoria empresarial, reunindo estudos e documentos sobre seu projeto e estou aqui para te ajudar 😁 !</p>',
+    '<p class="subtitulo">Sou uma IA desenvolvida pela AD&M Consultoria Empresarial, reunindo estudos e documentos sobre seu projeto e estou aqui para te ajudar 😁 !</p>',
     unsafe_allow_html=True
 )
 
@@ -80,7 +80,6 @@ def limpar_historico():
     st.session_state.perguntas_respondidas = set()
     salvar_estado()
 
-# Carregar contexto
 def carregar_contexto():
     contexto = ""
     for caminho in sorted(glob.glob("contextos/*.txt")):
@@ -157,33 +156,33 @@ Abaixo estão trechos relevantes para sua análise:
             else:
                 return f"Erro ao gerar a resposta: {str(e)}"
 
-# ---------------------- Sidebar ----------------------
+# ---------------- Sidebar --------------------
 
-# ✅ FORÇANDO DEBUG VISUAL DA SIDEBAR
-st.sidebar.markdown("## ✅ Sidebar carregada com sucesso")
+# ✅ DEBUG: Confirmação que a Sidebar carregou
+st.sidebar.markdown("### ✅ Sidebar carregada")
 
-# Exibe logo na sidebar (se houver)
+# Logo na sidebar
 if LOGO_BOT:
     st.sidebar.image(LOGO_BOT, width=300)
 else:
     st.sidebar.markdown("**Logo não encontrada**")
 
-# Campo de API key
+# API Key na sidebar
 api_key = st.sidebar.text_input("🔑 Chave API OpenAI", type="password", placeholder="Insira sua chave API")
 
-# Botão de limpar histórico
+# Botão de limpar histórico na sidebar
 if st.sidebar.button("🧹 Limpar Histórico do Chat", key="limpar_historico"):
     limpar_historico()
     st.sidebar.success("Histórico do chat limpo com sucesso!")
 
-# 🚨 CHECK de API KEY - Só interrompe DEPOIS que a sidebar inteira foi renderizada
+# Verificação da API Key (após o conteúdo visual da sidebar já ter sido criado)
 if not api_key:
     st.warning("Por favor, insira sua chave de API para continuar.")
     st.stop()
 else:
     openai.api_key = api_key
 
-# -------------------- Corpo principal --------------------
+# ----------------- Corpo principal -----------------
 
 user_input = st.chat_input("💬 Sua pergunta:")
 if user_input and user_input.strip():
